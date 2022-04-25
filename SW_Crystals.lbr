@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -276,10 +276,10 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="16 MHz ±15ppm Crystal 8pF 50 Ohms 4-SMD, No Lead" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="NDK America, Inc."/>
 <attribute name="MPN" value="NX5032GC-16MHZ-STD-CSK-6"/>
 <attribute name="PACKAGE" value="5032" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -295,6 +295,7 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="CRYSTAL 12.0000MHZ 20PF SMD" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="ECS Inc." constant="no"/>
 <attribute name="MPN" value="ECS-120-20-33-AEN-TR" constant="no"/>
 <attribute name="PACKAGE" value="3225" constant="no"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -3545,9 +3545,10 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length "/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Keystone Electronics"/>
 <attribute name="MPN" value="575-4"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="Banana Plug" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3570,9 +3571,10 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value=" Rf / Coaxial Connector, Bnc Coaxial, Straight Jack, Solder, 50 Ohm, Brass "/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="TE Connectivity"/>
 <attribute name="MPN" value="5-1634503-1"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="TH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3599,9 +3601,10 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Connector Header Through Hole 6 position 0.100&quot; (2.54mm)" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="METZ CONNECT USA Inc." constant="no"/>
 <attribute name="MPN" value="PR20203VBDN" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="3x2" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3624,15 +3627,16 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Terminals MALE .250 QUICK FIT STURDI MNT 15A .540H" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Keystone Electronics" constant="no"/>
 <attribute name="MPN" value="1289-STR" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="0.25 Quick Fit Tab" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="691322310004" prefix="V1">
+<deviceset name="691322310004" prefix="J">
 <gates>
 <gate name="G$1" symbol="CONN_04" x="5.08" y="5.08"/>
 </gates>
@@ -3648,7 +3652,13 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22816405/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="4-POS" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3674,9 +3684,10 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole "/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Amphenol ICC"/>
 <attribute name="MPN" value="10118193-0001LF"/>
-<attribute name="PRIMARY" value="1"/>
+<attribute name="PRIMARY" value="USB-B Micro SMD"/>
 </technology>
 </technologies>
 </device>
@@ -3707,9 +3718,10 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Connector Header Surface Mount 10 position 0.050&quot; (1.27mm)" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="S9012E-05-ND" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="5x2" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3732,20 +3744,17 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="SOCKET, K, ANSI, MINI, PCB" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="LABFACILITY" constant="no"/>
 <attribute name="MPN" value="AM-K-PCB" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="TH" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="BATTERY_CONN" prefix="J" uservalue="yes">
-<description>&lt;h3&gt;Battery Connectors&lt;/h3&gt;
-&lt;p&gt;Various footprints for battery connections&lt;/p&gt;
-&lt;p&gt;SparkFun Products:
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11864"&gt;Deans Connector -M/F Pair&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
+<description>Deans Connector -M/F Pair</description>
 <gates>
 <gate name="G$1" symbol="BATTERY_CONN" x="0" y="0"/>
 </gates>
@@ -3760,7 +3769,11 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="SF_ID" value="PRT-11864" constant="no"/>
+<attribute name="DESCRIPTION" value="Deans Connector - M/F Pair" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="Deans" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3783,15 +3796,16 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="2 Circuit 0.374&quot; (9.50mm) Barrier Block Connector Screws with Captive Plate" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="NTE Electronics, Inc" constant="no"/>
 <attribute name="MPN" value="25-B200-02" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="9.5mm Pitch" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="691322310003" prefix="S">
+<deviceset name="691322310003" prefix="J">
 <gates>
 <gate name="G$1" symbol="CONN_03" x="2.54" y="5.08"/>
 </gates>
@@ -3806,12 +3820,18 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22816404/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTON" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="3-POS" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="691322310002">
+<deviceset name="691322310002" prefix="J">
 <description>691322310002 Female Terminal Connector</description>
 <gates>
 <gate name="G$1" symbol="1X2-2" x="0" y="-2.54"/>
@@ -3826,7 +3846,13 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <package3dinstance package3d_urn="urn:adsk.eagle:package:29762466/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="2-POS" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3851,7 +3877,13 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <package3dinstance package3d_urn="urn:adsk.eagle:package:29763389/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="8-POS" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3879,9 +3911,10 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="FCI,54602-908LF,Connector,Modular Amphenol FCI Cat3 RJ45 Connector Socket, Right Angle, Through Hole 54602" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Amphenol ICC" constant="no"/>
 <attribute name="MPN" value="54602-908LF" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="RJ-45" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3922,44 +3955,19 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <package3dinstance package3d_urn="urn:adsk.eagle:package:33686735/5"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="1x23" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CONN_03" prefix="J" uservalue="yes">
-<description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/116"&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/553"&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/115"&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/117"&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/743"&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13875"&gt; Stackable Header - 3 Pin (Female, 0.1")&lt;/a&gt; (PRT-13875)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/search/results?term=Screw+Terminals"&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11375"&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11367"&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/categories/141"&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;Special notes:&lt;/b&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt; Molex polarized connector foot print use with SKU : PRT-08232 with associated crimp pins and housings.</description>
+<description>Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections</description>
 <gates>
 <gate name="J$1" symbol="CONN_03-1" x="-2.54" y="0"/>
 </gates>
@@ -3974,40 +3982,19 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30375653/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="1x3" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CONN_03X2" prefix="J" uservalue="yes">
-<description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;You can populate with any combo of single row headers, but if you'd like an exact match, check these:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12807"&gt; Header - 2x3 (Male, 0.1")&lt;/a&gt; (PRT-12807)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13010"&gt; Header - 2x3 (Female, 0.1")&lt;/a&gt; (PRT-13010)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10877"&gt; 2x3 Pin Shrouded Header&lt;/a&gt; (PRT-10877)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/116"&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/553"&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/115"&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/117"&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/743"&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;Special note: the shrouded connector mates well with our 3x2 ribbon cables:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10651"&gt; Ribbon Crimp Connector - 6-pin (2x3, Female)&lt;/a&gt; (PRT-10651)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10646"&gt; Ribbon Cable - 6 wire (15ft)&lt;/a&gt; (PRT-10646)&lt;/li&gt;
-&lt;/ul&gt;</description>
+<description>Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections</description>
 <gates>
 <gate name="G$1" symbol="CONN_03X2" x="0" y="0"/>
 </gates>
@@ -4026,8 +4013,11 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="CONN-11566"/>
-<attribute name="VALUE" value="FEMALE 2x3"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value=""/>
+<attribute name="PACKAGE" value="2x3"/>
 </technology>
 </technologies>
 </device>
@@ -4058,6 +4048,7 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="CONN HEADER VERT 10POS 2.54MM" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="On Shore Technology Inc" constant="no"/>
 <attribute name="MPN" value="302-S101" constant="no"/>
 <attribute name="PACKAGE" value="CON2x5" constant="no"/>
@@ -4067,15 +4058,7 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
 </devices>
 </deviceset>
 <deviceset name="CORTEX_DEBUG" prefix="J">
-<description>&lt;h3&gt;Cortex Debug Connector - 10 pin&lt;/h3&gt;
-&lt;p&gt;Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.
-PTH and SMD connector options available.&lt;/p&gt;
-&lt;p&gt; &lt;ul&gt;&lt;a href=”http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf”&gt;General Connector Information&lt;/a&gt;
-&lt;p&gt;&lt;b&gt; Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”http://www.digikey.com/product-detail/en/cnc-tech/3220-10-0100-00/1175-1627-ND/3883661”&gt;PTH Connector&lt;/a&gt; -via Digi-Key&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13229”&gt;SparkFun PSoc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13810”&gt;SparkFun T&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
+<description>Cortex Debug Connector - 10 pin. Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.</description>
 <gates>
 <gate name="G$1" symbol="CORTEX_DEBUG-1" x="0" y="0"/>
 </gates>
@@ -4097,7 +4080,13 @@ PTH and SMD connector options available.&lt;/p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:29347746/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="2x5" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4126,9 +4115,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="9 Position D-Sub Plug, Male Pins Connector" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Adam Tech" constant="no"/>
 <attribute name="MPN" value="DE09-PL-25" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="DB9" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4151,21 +4141,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="THERMOCOUPLE CONNECTOR" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Omega" constant="no"/>
 <attribute name="MPN" value="PCC-SMD-20" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
-</technology>
-<technology name="100">
-<attribute name="DESCRIPTION" value="THERMOCOUPLE CONNECTOR" constant="no"/>
-<attribute name="MFG" value="Omega" constant="no"/>
-<attribute name="MPN" value="PCC-SMD-1000" constant="no"/>
-<attribute name="PRIMARY" value="0" constant="no"/>
-</technology>
-<technology name="20">
-<attribute name="DESCRIPTION" value="THERMOCOUPLE CONNECTOR" constant="no"/>
-<attribute name="MFG" value="Omega" constant="no"/>
-<attribute name="MPN" value="PCC-SMD-500" constant="no"/>
-<attribute name="PRIMARY" value="0" constant="no"/>
+<attribute name="PACKAGE" value="PCC-SMD" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4188,7 +4167,13 @@ PTH and SMD connector options available.&lt;/p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:33689089/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="JST" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="JSTM-4 SMD" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4210,9 +4195,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="2PIN 16mm GX16-2 pin plug cable connector plug Aviation Plug Male &amp; Female Wire Panel Metal Connector 16mm 2 Pin GX16-2 2-Pin" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Banggood" constant="no"/>
 <attribute name="MPN" value="GX16-2" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="GX16" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4256,7 +4242,11 @@ PTH and SMD connector options available.&lt;/p&gt;
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="1x24" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4279,9 +4269,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="XT-30 Horizontal PCB Mount" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Amass" constant="no"/>
 <attribute name="MPN" value="61006" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="XT-30" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4306,20 +4297,19 @@ PTH and SMD connector options available.&lt;/p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:34173968/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="1x6" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="JST_2PIN" prefix="J" uservalue="yes">
-<description>&lt;b&gt;JST 2-Pin Connectors of various flavors&lt;/b&gt;
-
-&lt;ul&gt;
-&lt;li&gt;SMT-RA (S2B-PH-SM4) 4UConnector #17311&lt;/li&gt;
-&lt;li&gt;SMT  (B2B-PH-SM4)&lt;/li&gt;
-&lt;li&gt;THM-RA (S2B-PH)&lt;/li&gt;
-&lt;li&gt;THM  (B2B-PH)&lt;/li&gt;
-&lt;/ul&gt;</description>
+<description>JST 2-Pin Connector</description>
 <gates>
 <gate name="G$1" symbol="PINHD2" x="2.54" y="0"/>
 </gates>
@@ -4333,7 +4323,13 @@ PTH and SMD connector options available.&lt;/p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:27860053/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="JST" constant="no"/>
+<attribute name="MPN" value="S2B-PH-SM4" constant="no"/>
+<attribute name="PACKAGE" value="JST-2 SMT" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="" package="JST-PH-2-THM">
@@ -4345,7 +4341,13 @@ PTH and SMD connector options available.&lt;/p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31131965/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="JST-2-TH" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4368,9 +4370,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Power Barrel Connector Jack 2.10mm ID (0.083&quot;), 5.50mm OD (0.217&quot;) Through Hole, Right Angle" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="CUI Devices" constant="no"/>
 <attribute name="MPN" value="PJ-002A" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="5.5mm Barrel Jack" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4429,12 +4432,18 @@ PTH and SMD connector options available.&lt;/p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:33696696/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="FPC40" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PSX_CONTROLLER" prefix="J1" uservalue="yes">
+<deviceset name="PSX_CONTROLLER" prefix="J" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="PSX_CONTROLLER" x="-5.08" y="0"/>
 </gates>
@@ -4454,7 +4463,13 @@ PTH and SMD connector options available.&lt;/p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:27825049/6"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="PSX-CONN" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PSX_HORIZONTAL" package="PSX_HORIZONTAL">
@@ -4472,7 +4487,13 @@ PTH and SMD connector options available.&lt;/p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:29707004/4"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="PSX-CONN" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4504,9 +4525,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value=" HR911105A Ethernet Interface Arduino Platform Evaluation Expansion Board "/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="DFRobot"/>
 <attribute name="MPN" value="HR911105A"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="RJ-45" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4539,6 +4561,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="CONN FPC BOTTOM 12POS 1.00MM R/A" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Wurth Electronics" constant="no"/>
 <attribute name="MPN" value="68611214422" constant="no"/>
 <attribute name="PACKAGE" value="FPC12" constant="no"/>
@@ -4564,7 +4587,13 @@ PTH and SMD connector options available.&lt;/p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:33697662/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="FPC12" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4591,7 +4620,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <attribute name="DESCRIPTION" value="USB-B (USB TYPE-B) USB 2.0 Receptacle Connector 4 Position Through Hole, Right Angle" constant="no"/>
 <attribute name="MFG" value="Kycon, Inc." constant="no"/>
 <attribute name="MPN" value="KUSBEX-BSFS1N-W" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="USB-B TH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4613,12 +4642,11 @@ PTH and SMD connector options available.&lt;/p&gt;
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="No availability data"/>
 <attribute name="DESCRIPTION" value=" Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V "/>
-<attribute name="MF" value="AMASS"/>
-<attribute name="MP" value="XT60-M"/>
-<attribute name="PACKAGE" value="Package "/>
-<attribute name="PRICE" value="None"/>
+<attribute name="DNP" value=""/>
+<attribute name="MFG" value="AMASS"/>
+<attribute name="MPN" value="XT60-M"/>
+<attribute name="PACKAGE" value="XT-60"/>
 </technology>
 </technologies>
 </device>
@@ -4641,9 +4669,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="2-Pin Threaded Automotive Connector" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Weipu" constant="no"/>
 <attribute name="MPN" value="ST1213-P2" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="ST1213" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4675,15 +4704,16 @@ SMT Type, PCB Top Mount </description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value=" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole "/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Global Connector Technology"/>
 <attribute name="MPN" value="USB4105"/>
-<attribute name="PRIMARY" value="1"/>
+<attribute name="PACKAGE" value="USB-C SMD"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-2X5" prefix="JP" uservalue="yes">
+<deviceset name="PINHD-2X5" prefix="J" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X5" x="0" y="0"/>
@@ -4707,7 +4737,11 @@ SMT Type, PCB Top Mount </description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="35" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="2x5" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4733,8 +4767,11 @@ SMT Type, PCB Top Mount </description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="CONN-08046" constant="no"/>
-<attribute name="SF_ID" value="PRT-08094" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="1x6" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4764,15 +4801,16 @@ SMT Type, PCB Top Mount </description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Connector Header Surface Mount, Right Angle 6 position 0.039&quot; (1.00mm)" constant="no"/>
-<attribute name="MFG" value="JST Sales America Inc." constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="JST" constant="no"/>
 <attribute name="MPN" value="SM06B-SRSS-TB(LF)(SN)" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="JSTM-6 SMD" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X22" prefix="JP" uservalue="yes">
+<deviceset name="PINHD-1X22" prefix="J" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINHD22" x="0" y="0"/>
@@ -4808,7 +4846,11 @@ SMT Type, PCB Top Mount </description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PACKAGE" value="1x22" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -352,6 +352,24 @@
 <wire x1="11.605" y1="11.325" x2="-1.445" y2="11.325" width="0.2" layer="21"/>
 <wire x1="-1.445" y1="11.325" x2="-1.445" y2="0" width="0.2" layer="21"/>
 </package>
+<package name="IN-14">
+<wire x1="-7.62" y1="-0.1588" x2="7.6201" y2="0" width="0.254" layer="21" curve="-180"/>
+<circle x="0" y="0" radius="8.8744" width="0.254" layer="21"/>
+<pad name="A" x="0" y="-6.1899" drill="0.84"/>
+<pad name="LHDP" x="2.8766" y="-5.4809" drill="0.84"/>
+<pad name="0" x="5.0942" y="-3.5163" drill="0.84"/>
+<pad name="9" x="6.1448" y="-0.7461" drill="0.84"/>
+<pad name="8" x="5.7877" y="2.195" drill="0.84"/>
+<pad name="7" x="4.1047" y="4.6332" drill="0.84"/>
+<pad name="6" x="1.4813" y="6.0101" drill="0.84"/>
+<pad name="5" x="-1.4813" y="6.0101" drill="0.84"/>
+<pad name="4" x="-4.1047" y="4.6332" drill="0.84"/>
+<pad name="3" x="-5.7877" y="2.195" drill="0.84"/>
+<pad name="2" x="-6.1448" y="-0.7461" drill="0.84"/>
+<pad name="1" x="-5.0942" y="-3.5163" drill="0.84"/>
+<pad name="RHDP" x="-2.8766" y="-5.4809" drill="0.84"/>
+<text x="11.2713" y="-2.54" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="4201AS" urn="urn:adsk.eagle:package:20036582/3" type="model">
@@ -529,6 +547,28 @@
 <text x="5.08" y="7.62" size="1.6764" layer="96" font="vector" ratio="10">&gt;Value</text>
 <text x="5.08" y="5.08" size="1.6764" layer="97" font="vector" ratio="10">&gt;Package</text>
 </symbol>
+<symbol name="IN-14">
+<wire x1="-5.08" y1="-13.335" x2="-5.08" y2="10.795" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-13.335" x2="7.62" y2="-13.335" width="0.4064" layer="94" curve="180"/>
+<wire x1="7.62" y1="-13.335" x2="7.62" y2="10.795" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="10.795" x2="7.62" y2="10.795" width="0.4064" layer="94" curve="-180"/>
+<text x="-2.54" y="23.495" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="1" x="-7.62" y="10.16" visible="pin" length="short"/>
+<pin name="2" x="-7.62" y="7.62" visible="pin" length="short"/>
+<pin name="3" x="-7.62" y="5.08" visible="pin" length="short"/>
+<pin name="4" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="5" x="-7.62" y="0" visible="pin" length="short"/>
+<pin name="6" x="-7.62" y="-2.54" visible="pin" length="short"/>
+<pin name="7" x="-7.62" y="-5.08" visible="pin" length="short"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pin" length="short"/>
+<pin name="9" x="-7.62" y="-10.16" visible="pin" length="short"/>
+<pin name="0" x="-7.62" y="-12.7" visible="pin" length="short"/>
+<pin name="RHDP" x="10.16" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="A" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="LHDP" x="10.16" y="10.16" visible="pin" length="short" rot="R180"/>
+<text x="-2.54" y="20.955" size="1.778" layer="95" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="18.415" size="1.778" layer="95" font="vector">&gt;PACKAGE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="4201AS" prefix="D" uservalue="yes">
@@ -697,6 +737,39 @@
 <attribute name="MFG" value="Lite-On" constant="no"/>
 <attribute name="MPN" value="LTC-4627WC" constant="no"/>
 <attribute name="PRIMARY" value="1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IN-14" prefix="N">
+<description>IN-14: medium numeric &lt;b&gt;frontview&lt;/b&gt; nixie tube</description>
+<gates>
+<gate name="G$1" symbol="IN-14" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="IN-14">
+<connects>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="LHDP" pad="LHDP"/>
+<connect gate="G$1" pin="RHDP" pad="RHDP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="USSR" constant="no"/>
+<attribute name="MPN" value="IN-14" constant="no"/>
+<attribute name="PACKAGE" value="IN-14" constant="no"/>
 </technology>
 </technologies>
 </device>

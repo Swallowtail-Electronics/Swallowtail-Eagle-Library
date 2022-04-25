@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -333,6 +333,68 @@ Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf</description>
 <wire x1="-5.7" y1="1.9" x2="-5.7" y2="2" width="0.1" layer="21" curve="-180"/>
 <wire x1="-5.7" y1="2" x2="-5.7" y2="1.9" width="0.1" layer="21" curve="-180"/>
 </package>
+<package name="SOD-323">
+<description>&lt;b&gt;SOD323&lt;/b&gt; (2.5x1.2mm)</description>
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="51"/>
+<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0.762" x2="1.778" y2="0.762" width="0.127" layer="39"/>
+<wire x1="1.778" y1="0.762" x2="1.778" y2="-0.762" width="0.127" layer="39"/>
+<wire x1="1.778" y1="-0.762" x2="-1.778" y2="-0.762" width="0.127" layer="39"/>
+<wire x1="-1.778" y1="-0.762" x2="-1.778" y2="0.762" width="0.127" layer="39"/>
+<smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-2.37" y="1" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<rectangle x1="-0.7" y1="-0.7" x2="-0.5" y2="0.7" layer="51"/>
+</package>
+<package name="LED-TRICOLOR-5050" urn="urn:adsk.eagle:footprint:39335/1" locally_modified="yes">
+<description>&lt;h3&gt;5050 SMD RGB LED&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Specifications:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Pin count: 6&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.6mm&lt;/li&gt;
+&lt;li&gt;Area: 5.0mm x 5.mm&lt;/li&gt;
+&lt;li&gt;Thickness: 2.6mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/LED/5060BRG4.pdf"&gt; 5060BRG4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Example device(s):&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;LED-RGB&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="-0.7" y="2" radius="0.2236" width="0" layer="21"/>
+<circle x="0" y="0" radius="2" width="0.127" layer="51"/>
+<circle x="-2.2875" y="2.635" radius="0.127" width="0.254" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1" y1="2.5" x2="1" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-2.5" x2="1" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="0.7" x2="-2.5" y2="0.9" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-0.9" x2="-2.5" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-0.9" x2="2.5" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="0.7" x2="2.5" y2="0.9" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="-0.127" x2="0.254" y2="0.127" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0.127" x2="0.508" y2="0.127" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="0.127" x2="0.508" y2="-0.127" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="-0.127" x2="0.254" y2="-0.127" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2" x2="-1.8" y2="2.5" width="0.127" layer="51"/>
+<rectangle x1="1.7" y1="-0.45" x2="2.7" y2="0.45" layer="51"/>
+<rectangle x1="1.7" y1="1.15" x2="2.7" y2="2.05" layer="51"/>
+<rectangle x1="1.7" y1="-2.05" x2="2.7" y2="-1.15" layer="51"/>
+<rectangle x1="-2.7" y1="1.15" x2="-1.7" y2="2.05" layer="51" rot="R180"/>
+<rectangle x1="-2.7" y1="-0.45" x2="-1.7" y2="0.45" layer="51" rot="R180"/>
+<rectangle x1="-2.7" y1="-2.05" x2="-1.7" y2="-1.15" layer="51" rot="R180"/>
+<smd name="1" x="-2.4" y="1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="2" x="-2.4" y="0" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="3" x="-2.4" y="-1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="4" x="2.4" y="-1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="5" x="2.4" y="0" dx="2" dy="1.1" layer="1" roundness="100"/>
+<smd name="6" x="2.4" y="1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
+<text x="0" y="2.667" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;Name</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOD3715X145N" urn="urn:adsk.eagle:package:33053203/2" type="model">
@@ -443,6 +505,47 @@ Diode with low voltage drop</description>
 <text x="-2.54" y="8.128" size="1.6764" layer="95" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="2.794" size="1.6764" layer="97" font="vector" ratio="10">&gt;PACKAGE</text>
 </symbol>
+<symbol name="LED-RGB-INDV">
+<description>&lt;h3&gt;RGB LED - No Common&lt;/h3&gt;
+&lt;p&gt;6 pin RGB LED&lt;/p&gt;</description>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.27" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.27" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="-0.508" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-1.27" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.032" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.778" x2="-0.508" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="3.048" x2="-0.508" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="4.318" x2="0.762" y2="3.048" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.048" x2="-0.508" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.778" x2="0.762" y2="3.048" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.048" x2="0.762" y2="4.318" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.048" x2="2.032" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="3.048" x2="-1.778" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-4.318" x2="-0.508" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-3.048" x2="-0.508" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.778" x2="0.762" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-3.048" x2="-0.508" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-4.318" x2="0.762" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-3.048" x2="0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-3.048" x2="2.032" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-3.048" x2="-1.778" y2="-3.048" width="0.254" layer="94"/>
+<pin name="BLU-A" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="BLU-C" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GRN-A" x="-15.24" y="0" visible="pin" length="short"/>
+<pin name="GRN-C" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="RED-A" x="-15.24" y="-2.54" visible="pin" length="short"/>
+<pin name="RED-C" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<text x="0" y="10.795" size="1.778" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="8.255" size="1.778" layer="95" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="5.715" size="1.778" layer="95" font="vector" ratio="10" align="bottom-center">&gt;PACKAGE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RECTIFIER" prefix="D">
@@ -461,7 +564,39 @@ Diode with low voltage drop</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="PACKAGE" value="SOD-123F" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="BAV21WS" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="SMC Diode Solutions" constant="no"/>
+<attribute name="MPN" value="BAV21WS" constant="no"/>
+<attribute name="PACKAGE" value="SOD-323" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1N914BWS" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="onsemi" constant="no"/>
+<attribute name="MPN" value="1N914BWS" constant="no"/>
+<attribute name="PACKAGE" value="SOD323" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -486,9 +621,10 @@ Diode with low voltage drop</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Bridge Rectifier, 2A 600V, 4-Pin KBP" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Diodes Inc." constant="no"/>
 <attribute name="MPN" value="KBP206G" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="DIL-4" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -510,6 +646,10 @@ Diode with low voltage drop</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="PACKAGE" value="SOD-123" constant="no"/>
 </technology>
 </technologies>
@@ -524,6 +664,10 @@ Diode with low voltage drop</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="PACKAGE" value="SOD-123F" constant="no"/>
 </technology>
 </technologies>
@@ -538,6 +682,10 @@ Diode with low voltage drop</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="PACKAGE" value="DO-214BA" constant="no"/>
 </technology>
 </technologies>
@@ -589,6 +737,42 @@ Diode with low voltage drop</description>
 <technologies>
 <technology name="">
 <attribute name="PACKAGE" value="SMA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RGB_LED" prefix="D">
+<gates>
+<gate name="G$1" symbol="LED-RGB-INDV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED-TRICOLOR-5050">
+<connects>
+<connect gate="G$1" pin="BLU-A" pad="6"/>
+<connect gate="G$1" pin="BLU-C" pad="1"/>
+<connect gate="G$1" pin="GRN-A" pad="4"/>
+<connect gate="G$1" pin="GRN-C" pad="3"/>
+<connect gate="G$1" pin="RED-A" pad="5"/>
+<connect gate="G$1" pin="RED-C" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="Inolux" constant="no"/>
+<attribute name="MPN" value="IN-P55TATRGB" constant="no"/>
+<attribute name="PACKAGE" value="5050" constant="no"/>
 </technology>
 </technologies>
 </device>

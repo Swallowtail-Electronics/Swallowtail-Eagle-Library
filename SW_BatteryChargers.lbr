@@ -311,6 +311,7 @@
 <pin name="ISET2" x="35.56" y="-7.62" length="middle" rot="R180"/>
 <pin name="NC" x="35.56" y="-10.16" length="middle" direction="nc" rot="R180"/>
 <text x="3.81" y="5.08" size="1.6764" layer="96" font="vector" align="center-left">&gt;PACKAGE</text>
+<text x="19.05" y="5.08" size="1.6764" layer="96" font="vector" align="center-left">&gt;DNP</text>
 </symbol>
 <symbol name="MAX1811">
 <wire x1="-22.86" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
@@ -393,9 +394,10 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Texas Instruments BQ24091DGQT, Battery Charge Controller, 1000mA, 10-Pin MSOP" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="BQ24091DGQT" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="10-MSOP" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -424,9 +426,10 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="USB li-ion battery charger/Single cell" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Maxim Integrated" constant="no"/>
 <attribute name="MPN" value="MAX1811" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="SOIC-8" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -456,6 +459,7 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Battery Management Li-Ion/Li-Poly Charg Mgnt 4.5V Vreg out" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Microchip" constant="no"/>
 <attribute name="MPN" value="MCP73831-5ACI/MC" constant="no"/>
 <attribute name="PACKAGE" value="8-DFN" constant="no"/>
@@ -487,9 +491,10 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="1.3A Lithium Ion, 9V Input Voltage Battery Linear Charger" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
 <attribute name="MFG" value="Microne" constant="no"/>
 <attribute name="MPN" value="ME4057" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="PACKAGE" value="SOIC-8" constant="no"/>
 </technology>
 </technologies>
 </device>
