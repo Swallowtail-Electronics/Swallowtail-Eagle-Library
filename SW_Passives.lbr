@@ -71,7 +71,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -678,6 +678,87 @@ chip</description>
 <wire x1="13.208" y1="7.747" x2="13.208" y2="-4.318" width="0.127" layer="21"/>
 <text x="0.762" y="8.001" size="0.8128" layer="21" font="vector" ratio="10">&gt;NAME</text>
 </package>
+<package name="IND_12565_TDK">
+<smd name="1" x="-5.550003125" y="0" dx="2.6" dy="3.2" layer="1"/>
+<smd name="2" x="5.550003125" y="0" dx="2.6" dy="3.2" layer="1"/>
+<wire x1="-3.3274" y1="6.5278" x2="-6.5278" y2="3.3274" width="0.1524" layer="21"/>
+<wire x1="-6.5278" y1="3.3274" x2="-6.5278" y2="1.9304" width="0.1524" layer="21"/>
+<wire x1="-6.5278" y1="-3.3274" x2="-3.3274" y2="-6.5278" width="0.1524" layer="21"/>
+<wire x1="-3.3274" y1="-6.5278" x2="3.3274" y2="-6.5278" width="0.1524" layer="21"/>
+<wire x1="3.3274" y1="-6.5278" x2="6.5278" y2="-3.3274" width="0.1524" layer="21"/>
+<wire x1="6.5278" y1="-3.3274" x2="6.5278" y2="-1.9304" width="0.1524" layer="21"/>
+<wire x1="6.5278" y1="3.3274" x2="3.3274" y2="6.5278" width="0.1524" layer="21"/>
+<wire x1="3.3274" y1="6.5278" x2="-3.3274" y2="6.5278" width="0.1524" layer="21"/>
+<wire x1="-6.5278" y1="-1.9304" x2="-6.5278" y2="-3.3274" width="0.1524" layer="21"/>
+<wire x1="6.5278" y1="1.9304" x2="6.5278" y2="3.3274" width="0.1524" layer="21"/>
+<wire x1="-3.2004" y1="6.4008" x2="-6.4008" y2="3.2004" width="0.1524" layer="51"/>
+<wire x1="-6.4008" y1="3.2004" x2="-6.4008" y2="-3.2004" width="0.1524" layer="51"/>
+<wire x1="-6.4008" y1="-3.2004" x2="-3.2004" y2="-6.4008" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="-6.4008" x2="3.2004" y2="-6.4008" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="-6.4008" x2="6.4008" y2="-3.2004" width="0.1524" layer="51"/>
+<wire x1="6.4008" y1="-3.2004" x2="6.4008" y2="3.2004" width="0.1524" layer="51"/>
+<wire x1="6.4008" y1="3.2004" x2="3.2004" y2="6.4008" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="6.4008" x2="-3.2004" y2="6.4008" width="0.1524" layer="51"/>
+<circle x="-7.62" y="0" radius="0.06475625" width="0.127" layer="21"/>
+</package>
+<package name="1206">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="1210">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+</package>
+<package name="C0201" urn="urn:adsk.eagle:footprint:8086304/1">
+<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
+<smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="-0.1" layer="51"/>
+</package>
+<package name="R0201" urn="urn:adsk.eagle:footprint:8082151/1">
+<description>&lt;b&gt;Chip RESISTOR, 0201 EIA (0603 Metric)&lt;/b&gt;</description>
+<wire x1="-0.6" y1="0.415" x2="0.6" y2="0.415" width="0.0508" layer="39"/>
+<wire x1="0.6" y1="0.415" x2="0.6" y2="-0.415" width="0.0508" layer="39"/>
+<wire x1="0.6" y1="-0.415" x2="-0.6" y2="-0.415" width="0.0508" layer="39"/>
+<wire x1="-0.6" y1="-0.415" x2="-0.6" y2="0.415" width="0.0508" layer="39"/>
+<smd name="1" x="-0.275" y="0" dx="0.34" dy="0.35" layer="1"/>
+<smd name="2" x="0.275" y="0" dx="0.34" dy="0.35" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0805" urn="urn:adsk.eagle:package:25924307/4" type="model">
@@ -826,6 +907,13 @@ chip</description>
 <package3d name="IND_TAIYO_NRS8030_TAY" urn="urn:adsk.eagle:package:35180429/2" type="model">
 <packageinstances>
 <packageinstance name="IND_TAIYO_NRS8030_TAY"/>
+</packageinstances>
+</package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:37426/1" locally_modified="yes" type="box">
+<description>Generic 3216 (1206) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="1206"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1133,44 +1221,6 @@ chip</description>
 </technology>
 </technologies>
 </device>
-<device name="0805-1K-1/8W-1%" package="R0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25924307/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="RES 1K OHM 1% 1/8W 0805" constant="no"/>
-<attribute name="DNP" value="" constant="no"/>
-<attribute name="MFG" value="Stackpole Electronics Inc" constant="no"/>
-<attribute name="MPN" value="RMCF0805FT1K00" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="VALUE" value="1k" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0805-10K-1/8W-1%" package="R0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25924307/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/8W 0805" constant="no"/>
-<attribute name="DNP" value="" constant="no"/>
-<attribute name="MFG" value="Stackpole Electronics Inc" constant="no"/>
-<attribute name="MPN" value="RMCF0805FT10K0" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="AXIAL-180K-1W-5%" package="0411/15">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1275,6 +1325,33 @@ chip</description>
 <attribute name="DNP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="R1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R1210" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R0201" package="R0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1405,31 +1482,20 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="CATEGORY" value="Components" constant="no"/>
 <attribute name="DESCRIPTION" value="CAP CER 2200PF 400VAC Y5U RADIAL" constant="no"/>
 <attribute name="DNP" value="" constant="no"/>
-<attribute name="MFG" value="Kemet" constant="no"/>
-<attribute name="MPN" value="C927U222MYWDBA7317" constant="no"/>
+<attribute name="MFGS" value="Kemet" constant="no"/>
+<attribute name="MPNS" value="C927U222MYWDBA7317" constant="no"/>
 <attribute name="PACKAGE" value="Radial" constant="no"/>
+<attribute name="PART_NUMBER" value="C927U222MYWDBA7317" constant="no"/>
+<attribute name="SUBCATEGORY" value="Capacitors" constant="no"/>
+<attribute name="TEMP_COEFF" value="Y5U" constant="no"/>
+<attribute name="TEMP_MAX" value="125" constant="no"/>
+<attribute name="TEMP_MIN" value="-40" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
 <attribute name="VALUE" value="2200pF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0805-0.1UF-50V-10%-X7R" package="C0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25924210/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0805" constant="no"/>
-<attribute name="DNP" value="" constant="no"/>
-<attribute name="MFG" value="Murata" constant="no"/>
-<attribute name="MPN" value="GCD21BR71H104KA01L" constant="no"/>
-<attribute name="PACKAGE" value="0805" constant="no"/>
-<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLTAGE-AC" value="400V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1443,12 +1509,20 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="FILM CAP MKP X2 - COMPACT, 0.68U" constant="no"/>
+<attribute name="CATEGORY" value="Components" constant="no"/>
+<attribute name="DESCRIPTION" value="0.68 µF Film Capacitor 275V 500V Polypropylene (PP), Metallized Radial, X2" constant="no"/>
 <attribute name="DNP" value="" constant="no"/>
-<attribute name="MFG" value="TDK Electronics" constant="no"/>
-<attribute name="MPN" value="B32922X2684K000" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="MFGS" value="TDK" constant="no"/>
+<attribute name="MPNS" value="B32922X2684K000" constant="no"/>
+<attribute name="PACKAGE" value="TH" constant="no"/>
+<attribute name="PART_NUMBER" value="B32922X2684K000" constant="no"/>
+<attribute name="SUBCATEGORY" value="Capacitors" constant="no"/>
+<attribute name="TEMP_MAX" value="110" constant="no"/>
+<attribute name="TEMP_MIN" value="-40" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
 <attribute name="VALUE" value="0.68uF" constant="no"/>
+<attribute name="VOLTAGE-AC" value="275V" constant="no"/>
+<attribute name="VOLTAGE-DC" value="500V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1489,12 +1563,51 @@ chip</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="CATEGORY" value="Components" constant="no"/>
+<attribute name="DESCRIPTION" value="0.68 µF Film Capacitor 275V 500V Polypropylene (PP), Metallized Radial, X2" constant="no"/>
 <attribute name="DNP" value="" constant="no"/>
-<attribute name="MFG" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="MFGS" value="TDK" constant="no"/>
+<attribute name="MPNS" value="B32923X2684K000" constant="no"/>
+<attribute name="PACKAGE" value="TH" constant="no"/>
+<attribute name="PART_NUMBER" value="B32923X2684K000" constant="no"/>
+<attribute name="SUBCATEGORY" value="Capacitors" constant="no"/>
+<attribute name="TEMP_MAX" value="110" constant="no"/>
+<attribute name="TEMP_MIN" value="-40" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.68uF" constant="no"/>
+<attribute name="VOLTAGE-AC" value="275V" constant="no"/>
+<attribute name="VOLTAGE-DC" value="500V" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="C1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37426/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C1210" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C0201" package="C0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1515,11 +1628,19 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="FIXED IND 2.2UH 4A 52 MOHM SMD" constant="no"/>
-<attribute name="MFG" value="Bourns Inc." constant="no"/>
-<attribute name="MPN" value="SRP5015TA-2R2M" constant="no"/>
+<attribute name="CATEGORY" value="Components" constant="no"/>
+<attribute name="CURRENT_RATING" value="4A" constant="no"/>
+<attribute name="DCR" value="52mOhm" constant="no"/>
+<attribute name="DESCRIPTION" value="2.2 µH Shielded Drum Core, Wirewound Inductor 4 A 52mOhm Max Nonstandard" constant="no"/>
+<attribute name="MFGS" value="Bourns" constant="no"/>
+<attribute name="MPNS" value="SRP5015TA-2R2M" constant="no"/>
 <attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="PART_NUMBER" value="SRP5015TA-2R2M" constant="no"/>
 <attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="SUBCATEGORY" value="Inductors" constant="no"/>
+<attribute name="TEMP_MAX" value="150" constant="no"/>
+<attribute name="TEMP_MIN" value="-55" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
 <attribute name="VALUE" value="2.2uH" constant="no"/>
 </technology>
 </technologies>
@@ -1534,12 +1655,19 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="FIXED IND 10UH 4A 32 MOHM SMD" constant="no"/>
-<attribute name="MFG" value="Bourns Inc." constant="no"/>
-<attribute name="MPN" value="SRR1240-100M" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="PRIMARY" value="1" constant="no"/>
-<attribute name="VALUE" value="10uH" constant="no"/>
+<attribute name="CATEGORY" value="Components" constant="no"/>
+<attribute name="CURRENT_RATING" value="4A" constant="no"/>
+<attribute name="DCR" value="32mOhm" constant="no"/>
+<attribute name="DESCRIPTION" value="10 µH Shielded Drum Core, Wirewound Inductor 4 A 32mOhm Max Nonstandard"/>
+<attribute name="MFGS" value="Bourns"/>
+<attribute name="MPNS" value="SRR1240-100M"/>
+<attribute name="PACKAGE" value="Drum Core"/>
+<attribute name="PART_NUMBER" value="SRR1240-100M"/>
+<attribute name="SUBCATEGORY" value="Inductors" constant="no"/>
+<attribute name="TEMP_MAX" value="125"/>
+<attribute name="TEMP_MIN" value="-40"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="10uH"/>
 </technology>
 </technologies>
 </device>
@@ -1569,9 +1697,20 @@ chip</description>
 <technologies>
 <technology name="">
 <attribute name="DNP" value="" constant="no"/>
-<attribute name="MFG" value="TDK Corporation" constant="no"/>
+<attribute name="MFG" value="TDK" constant="no"/>
 <attribute name="MPN" value="CLF12555T-151M-D" constant="no"/>
 <attribute name="PACKAGE" value="SMD" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SLF12565T" package="IND_12565_TDK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="Shielded Drum Core" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1607,10 +1746,18 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="CATEGORY" value="Components" constant="no"/>
 <attribute name="DESCRIPTION" value="CTS 74X Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-5% 0.063W +/-200ppm/C" constant="no"/>
-<attribute name="MFG" value="CTS" constant="no"/>
-<attribute name="MPN" value="742C163103JP" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFGS" value="CTS" constant="no"/>
+<attribute name="MPNS" value="742C163103JP" constant="no"/>
+<attribute name="PACKAGE" value="2506" constant="no"/>
+<attribute name="PART_NUMBER" value="742C163103JP" constant="no"/>
+<attribute name="SUBCATEGORY" value="Resistors" constant="no"/>
+<attribute name="TEMP_MAX" value="125" constant="no"/>
+<attribute name="TEMP_MIN" value="-55" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1666,6 +1813,37 @@ chip</description>
 <attribute name="MFG" value="Zettler Magnetics" constant="no"/>
 <attribute name="MPN" value="BV301S12010-ZU" constant="no"/>
 <attribute name="PRIMARY" value="1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FERRITE" prefix="FB">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33611815/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Componets" constant="no"/>
+<attribute name="DCR" value="750mOhm" constant="no"/>
+<attribute name="DESCRIPTION" value="1.8 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0603 (1608 Metric) 100mA 750mOhm" constant="no"/>
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFGS" value="Wurth Electronics" constant="no"/>
+<attribute name="MPNS" value="782631182" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="PART_NUMBER" value="782631182" constant="no"/>
+<attribute name="SUBCATEGORY" value="Ferrite" constant="no"/>
+<attribute name="TEMP_MAX" value="125" constant="no"/>
+<attribute name="TEMP_MIN" value="-55" constant="no"/>
 </technology>
 </technologies>
 </device>

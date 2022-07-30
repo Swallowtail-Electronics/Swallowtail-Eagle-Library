@@ -287,6 +287,26 @@
 <wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.2032" layer="21"/>
 <text x="5.08" y="6.477" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;Name</text>
 </package>
+<package name="SW_R1966ABLKBLKFR_EWI" urn="urn:adsk.eagle:footprint:35806826/2">
+<pad name="1" x="0" y="0" drill="1.8542" diameter="2.3622"/>
+<pad name="2" x="7.0104" y="0" drill="1.8542" diameter="2.3622"/>
+<wire x1="-11.1252" y1="-0.7366" x2="-1.3208" y2="-0.7366" width="0.1524" layer="21"/>
+<wire x1="11.176" y1="-0.7366" x2="11.176" y2="22.3266" width="0.1524" layer="21"/>
+<wire x1="11.176" y1="22.3266" x2="-11.1252" y2="22.3266" width="0.1524" layer="21"/>
+<wire x1="-11.1252" y1="22.3266" x2="-11.1252" y2="-0.7366" width="0.1524" layer="21"/>
+<wire x1="1.3208" y1="-0.7366" x2="5.6896" y2="-0.7366" width="0.1524" layer="21"/>
+<wire x1="8.3312" y1="-0.7366" x2="11.176" y2="-0.7366" width="0.1524" layer="21"/>
+<wire x1="12.8524" y1="-1.27" x2="12.0904" y2="-1.27" width="0.508" layer="21" curve="-180"/>
+<wire x1="12.0904" y1="-1.27" x2="12.8524" y2="-1.27" width="0.508" layer="21" curve="-180"/>
+<wire x1="-11.0236" y1="-0.6096" x2="11.0744" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="11.0744" y1="-0.6096" x2="11.0744" y2="22.1996" width="0.1524" layer="51"/>
+<wire x1="11.0744" y1="22.1996" x2="-11.0236" y2="22.1996" width="0.1524" layer="51"/>
+<wire x1="-11.0236" y1="22.1996" x2="-11.0236" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="12.8524" y1="-1.27" x2="12.0904" y2="-1.27" width="0.508" layer="22" curve="-180"/>
+<wire x1="12.0904" y1="-1.27" x2="12.8524" y2="-1.27" width="0.508" layer="22" curve="-180"/>
+<wire x1="-10.7188" y1="-0.7366" x2="-1.524" y2="-0.7366" width="0.1524" layer="21"/>
+<text x="12.6238" y="0.635" size="0.8128" layer="27" font="vector" ratio="10" rot="SR0">&gt;Name</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SW_EG1215AA" urn="urn:adsk.eagle:package:33640214/1" type="box">
@@ -312,6 +332,11 @@
 </description>
 <packageinstances>
 <packageinstance name="KMR2_1"/>
+</packageinstances>
+</package3d>
+<package3d name="SW_R1966ABLKBLKFR_EWI" urn="urn:adsk.eagle:package:35806827/3" type="model">
+<packageinstances>
+<packageinstance name="SW_R1966ABLKBLKFR_EWI"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -471,8 +496,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOMENTARY-SWITCH-SPST" prefix="S">
-<description>TACTILE SWITCH, SPST-NO</description>
+<deviceset name="SPST" prefix="S">
+<description>TACTILE SWITCH, SPST</description>
 <gates>
 <gate name="G$1" symbol="SWITCH-MOMENTARY-2" x="0" y="0"/>
 </gates>
@@ -523,6 +548,23 @@
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="R1966ABLKBLKFR" package="SW_R1966ABLKBLKFR_EWI">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35806827/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DNP" value="" constant="no"/>
+<attribute name="MFG" value="E-Switch" constant="no"/>
+<attribute name="MPN" value="R1966ABLKBLKFR" constant="no"/>
+<attribute name="PACKAGE" value="Rocker" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

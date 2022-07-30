@@ -326,7 +326,9 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTS_EXCLUDE" value="True" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -352,7 +354,9 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTS_EXCLUDE" value="True" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -365,7 +369,9 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTS_EXCLUDE" value="True" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -404,7 +410,9 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTS_EXCLUDE" value="True" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -430,7 +438,9 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTS_EXCLUDE" value="True" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -443,7 +453,9 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTS_EXCLUDE" value="True" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -456,7 +468,9 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTS_EXCLUDE" value="True" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -495,7 +509,9 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTS_EXCLUDE" value="True" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -508,7 +524,9 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTS_EXCLUDE" value="True" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

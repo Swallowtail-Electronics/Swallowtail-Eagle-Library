@@ -319,11 +319,16 @@
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="CATEGORY" value="Sensors" constant="no"/>
 <attribute name="DESCRIPTION" value="IC CONV THERMOCOUPLE-DGTL 8SOIC" constant="no"/>
-<attribute name="MFG" value="Maxim Integrated Products" constant="no"/>
-<attribute name="MPN" value="MAX31855RASA+T" constant="no"/>
+<attribute name="MFGS" value="Analog Devices,Analog Devices" constant="no"/>
+<attribute name="MPNS" value="MAX31855RASA+T,MAX31855RASA+" constant="no"/>
 <attribute name="PACKAGE" value="SOIC-8" constant="no"/>
+<attribute name="PART_NUMBER" value="MAX31855RASA+" constant="no"/>
 <attribute name="PRIMARY" value="1" constant="no"/>
+<attribute name="SUBCATEGORY" value="Temperature" constant="no"/>
+<attribute name="TEMP_MAX" value="125" constant="no"/>
+<attribute name="TEMP_MIN" value="-40" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -349,11 +354,16 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Current Shunt Monitor" constant="no"/>
+<attribute name="CATEGORY" value="Sensors" constant="no"/>
+<attribute name="DESCRIPTION" value="Current Sense Amplifier 1 Circuit Rail-to-Rail SC-70-6" constant="no"/>
 <attribute name="DNP" value="" constant="no"/>
-<attribute name="MFG" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="INA190A5IDCK" constant="no"/>
+<attribute name="MFGS" value="Texas Instruments,Texas Instruments" constant="no"/>
+<attribute name="MPNS" value="INA190A5IDCKT,INA190A5IDCKR" constant="no"/>
 <attribute name="PACKAGE" value="SC-70-6" constant="no"/>
+<attribute name="PART_NUMBER" value="INA190A5IDCK" constant="no"/>
+<attribute name="SUBCATEGORY" value="Current" constant="no"/>
+<attribute name="TEMP_MAX" value="125" constant="no"/>
+<attribute name="TEMP_MIN" value="-40" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -379,11 +389,16 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Shunt Current Monitor" constant="no"/>
+<attribute name="CATEGORY" value="Sensors" constant="no"/>
+<attribute name="DESCRIPTION" value="Current Sense Amplifier 1 Circuit SC-70-6" constant="no"/>
 <attribute name="DNP" value="" constant="no"/>
-<attribute name="MFG" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="INA212" constant="no"/>
+<attribute name="MFGS" value="Texas Instruments,Texas Instruments" constant="no"/>
+<attribute name="MPNS" value="INA212AIDCKT,INA212AIDCKR" constant="no"/>
 <attribute name="PACKAGE" value="SC-70" constant="no"/>
+<attribute name="PART_NUMBER" value="INA212AIDCK" constant="no"/>
+<attribute name="SUBCATEGORY" value="Current" constant="no"/>
+<attribute name="TEMP_MAX" value="125" constant="no"/>
+<attribute name="TEMP_MIN" value="-40" constant="no"/>
 </technology>
 </technologies>
 </device>
