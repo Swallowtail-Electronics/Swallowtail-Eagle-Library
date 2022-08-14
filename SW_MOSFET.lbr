@@ -465,12 +465,14 @@ Switches electrical signals</description>
       <device name="" package="TO220">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="MOSFET N-CH 100V 22A TO220AB" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="ST Microelectronics" constant="no" />
          <attribute name="MPNS" value="IRF540" constant="no" />
          <attribute name="PACKAGE" value="TO220" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="FET" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -485,12 +487,14 @@ Switches electrical signals</description>
       <device name="TO262" package="TO262-V">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="MOSFET N-CH 100V 36A TO262" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Infineon Technologies" constant="no" />
          <attribute name="MPNS" value="IRF540ZLPBF" constant="no" />
          <attribute name="PACKAGE" value="TO262" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="FET" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -512,12 +516,14 @@ Switches electrical signals</description>
       <device name="2N7000" package="2N7000">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="MOSFET N-CH 60V 350MA TO92-3" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="onsemi" constant="no" />
          <attribute name="MPNS" value="2N7000" constant="no" />
          <attribute name="PACKAGE" value="TO-92" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="FET" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -540,12 +546,14 @@ Switches electrical signals</description>
       <device name="" package="SOT363_PHILIPS">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="MOSFET 2P-CH 20V 1.3A SC70-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Vishay Siliconix" constant="no" />
          <attribute name="MPNS" value="SI1967DH-T1-E3" constant="no" />
          <attribute name="PACKAGE" value="SOT-363" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="FET" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -570,12 +578,14 @@ Switches electrical signals</description>
       <device name="" package="SOT23-3">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Diodes Incorporated" constant="no" />
          <attribute name="MPNS" value="MMBTA55-7-F" constant="no" />
          <attribute name="PACKAGE" value="SOT-23-3" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="FET" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -594,12 +604,14 @@ Switches electrical signals</description>
       <device name="" package="SOT230P700X190-4N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="STMicroelectronics" constant="no" />
          <attribute name="MPNS" value="STN1NF20" constant="no" />
          <attribute name="PACKAGE" value="SOT-223" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="FET" constant="no" />
         </technology>
        </technologies>
        <connects>

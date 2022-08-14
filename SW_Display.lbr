@@ -616,12 +616,14 @@
       <device name="" package="4201AS">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Dual Common Cathode Seven Segment Display" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Aliexpress" constant="no" />
          <attribute name="MPNS" value="4201AS" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Display" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -650,12 +652,14 @@
       <device name="" package="QFN50P700X700X100-49N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="IC VIDEO GRAPHIC CNTL 48VQFN" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Bridgetek Pte Ltd." constant="no" />
          <attribute name="MPNS" value="FT810Q-T" constant="no" />
          <attribute name="PACKAGE" value="48-VQFN (7x7)" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Display" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -723,12 +727,14 @@
       <device name="" package="SSD1306_128_64">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="SSD1306 OLED Screen 128x64" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Aliexpress" constant="no" />
          <attribute name="MPNS" value="SSD1306" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Display" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -751,12 +757,14 @@
       <device name="" package="DIPS1016W50P254L4018H725Q16N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="LED Displays &amp; Accessories 4 Digit, Red Low Current" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Lite-On" constant="no" />
          <attribute name="MPNS" value="LTC-4627WC" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Display" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -791,12 +799,14 @@
       <device name="" package="IN-14">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Display" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -828,12 +838,14 @@
       <device name="" package="IN-3">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Display" constant="no" />
         </technology>
        </technologies>
        <connects>

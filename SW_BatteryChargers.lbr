@@ -376,12 +376,14 @@
       <device name="" package="SOP50P490X110-11N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Texas Instruments BQ24091DGQT, Battery Charge Controller, 1000mA, 10-Pin MSOP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="BQ24091DGQT" constant="no" />
          <attribute name="PACKAGE" value="10-MSOP" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -411,12 +413,14 @@
       <device name="SO8" package="SO08">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="USB li-ion battery charger/Single cell" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Maxim Integrated" constant="no" />
          <attribute name="MPNS" value="MAX1811" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -443,12 +447,14 @@
       <device name="" package="SON50P300X200X100-9N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Battery Management Li-Ion/Li-Poly Charg Mgnt 4.5V Vreg out" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip" constant="no" />
          <attribute name="MPNS" value="MCP73831-5ACI/MC" constant="no" />
          <attribute name="PACKAGE" value="8-DFN" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -476,12 +482,14 @@
       <device name="-SOP8" package="SO08-SKINNYPADS">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="1.3A Lithium Ion, 9V Input Voltage Battery Linear Charger" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microne" constant="no" />
          <attribute name="MPNS" value="ME4057" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="" constant="no" />
         </technology>
        </technologies>
        <connects>

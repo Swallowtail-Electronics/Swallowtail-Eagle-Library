@@ -217,12 +217,14 @@
       <device name="" package="SOT95P280X145-6N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="8 Bit Analog to Digital Converter 1 Input 1 SAR SOT-23-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="ADS7868IDBVR" constant="no" />
          <attribute name="PACKAGE" value="SOT23-6" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="ADC" constant="no" />
         </technology>
        </technologies>
        <connects>

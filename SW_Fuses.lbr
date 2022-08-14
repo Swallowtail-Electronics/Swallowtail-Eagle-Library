@@ -6,7 +6,7 @@
    <setting alwaysvectorfont="no" />
    <setting verticaltext="up" />
   </settings>
-  <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil" />
+  <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch" />
   <layers>
    <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes" />
    <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes" />
@@ -295,12 +295,14 @@ Metric Code Size 4532</description>
       <device name="" package="3557-15">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Automotive Fuse Blade Holder" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Keystone Electronics" constant="no" />
          <attribute name="MPNS" value="3557-15" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Fuse" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -321,12 +323,14 @@ Metric Code Size 4532</description>
       <device name="0805-6V-0.5A" package="R0805">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="PTC RESET FUSE 6V 500MA 0805" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Bel Fuse Inc." constant="no" />
          <attribute name="MPNS" value="0ZCK0050FF2E" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Fuse" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -340,12 +344,14 @@ Metric Code Size 4532</description>
       <device name="1812-24V-1.5A" package="C1812K">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="PPTC SMD 1812, 24V 1.5A, REEL 7&quot;" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="YAGEO" constant="no" />
          <attribute name="MPNS" value="SMD1812B150TF/24" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Fuse" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -366,12 +372,14 @@ Metric Code Size 4532</description>
       <device name="MOV-10D301KTR" package="S07K17">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="VARISTOR 300V 2.5KA DISC 10MM" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Bourns Inc." constant="no" />
          <attribute name="MPNS" value="MOV-10D301KTR" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Fuse" constant="no" />
         </technology>
        </technologies>
        <connects>

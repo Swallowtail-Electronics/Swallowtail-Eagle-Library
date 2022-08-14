@@ -381,12 +381,14 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
       <device name="" package="TSSOP14">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Logic IC" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -419,12 +421,14 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
       <device name="SO16" package="SO16">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="SO16 3-line to 8-line DECODER/DEMULTIPLEXER" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="SN74LV138ANSR" constant="no" />
          <attribute name="PACKAGE" value="SOIC-16" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Logic IC" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -459,12 +463,14 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
       <device name="" package="SOIC20L">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="TPIC6595DW" constant="no" />
          <attribute name="PACKAGE" value="20-SOIC" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Logic IC" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -497,12 +503,14 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
       <device name="" package="SO16">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="CD74HC595M96" constant="no" />
          <attribute name="PACKAGE" value="SOIC-16" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Logic IC" constant="no" />
         </technology>
        </technologies>
        <connects>

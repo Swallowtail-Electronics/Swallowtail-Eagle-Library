@@ -305,12 +305,14 @@
       <device name="21-0041B_8_MXM-M" package="SOIC-8">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="IC CONV THERMOCOUPLE-DGTL 8SOIC" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Analog Devices,Analog Devices" constant="no" />
          <attribute name="MPNS" value="MAX31855RASA+T,MAX31855RASA+" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Sensor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -337,12 +339,14 @@
       <device name="" package="SC-70">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Current Sense Amplifier 1 Circuit Rail-to-Rail SC-70-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments,Texas Instruments" constant="no" />
          <attribute name="MPNS" value="INA190A5IDCKT,INA190A5IDCKR" constant="no" />
          <attribute name="PACKAGE" value="SC-70-6" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Sensor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -367,12 +371,14 @@
       <device name="" package="SC-70">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Current Sense Amplifier 1 Circuit SC-70-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments,Texas Instruments" constant="no" />
          <attribute name="MPNS" value="INA212AIDCKT,INA212AIDCKR" constant="no" />
          <attribute name="PACKAGE" value="SC-70" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Sensor" constant="no" />
         </technology>
        </technologies>
        <connects>

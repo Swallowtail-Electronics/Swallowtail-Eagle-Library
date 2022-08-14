@@ -343,12 +343,14 @@
       <device name="" package="SOT-23-6">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 2A SOT-23-6 Thin, TSOT-23-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Diodes Incorporated" constant="no" />
          <attribute name="MPNS" value="AP62200WU-7" constant="no" />
          <attribute name="PACKAGE" value="TSOT-23-6" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -373,20 +375,24 @@
       <device name="LMR336" package="SOIC-8-EP">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="SIMPLE SWITCHER 3.8V to 36V, 1A Synchronous Buck Converter With Ultra-Low EMI" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="LMR33610ADDAR" constant="no" />
          <attribute name="PACKAGE" value="PPSOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
         </technology>
         <technology name="LMR33630ADDAR">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="SIMPLE SWITCHER 3.8V to 36V, 3A Synchronous Buck Converter With Ultra-Low EMI" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="LMR336030ADDAR" constant="no" />
          <attribute name="PACKAGE" value="PPSOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -414,12 +420,14 @@
       <device name="" package="SOIC-8-EP">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="IC REG BUCK ADJUSTABLE 4A 8SOP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Richtek USA Inc." constant="no" />
          <attribute name="MPNS" value="RT8288AZSP" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8-EP" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -445,12 +453,14 @@
       <device name="" package="SO08">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="MC34063AD" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -474,12 +484,14 @@
       <device name="" package="SOIC-8-EP">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>

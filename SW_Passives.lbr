@@ -1163,12 +1163,14 @@ chip</description>
       <device name="R0805" package="R0805">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="0805" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1182,12 +1184,14 @@ chip</description>
       <device name="R2512" package="R2512">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="2512" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1201,12 +1205,14 @@ chip</description>
       <device name="1W" package="0309/10">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="Axial" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1220,12 +1226,14 @@ chip</description>
       <device name="1W_LG" package="0411/15">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="Axial" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1239,12 +1247,14 @@ chip</description>
       <device name="AXIAL-180K-1W-5%" package="0411/15">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="RES 180K OHM 5% 1W AXIAL" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Stackpole Electronics Inc" constant="no" />
          <attribute name="MPNS" value="RSF1JT180K" constant="no" />
          <attribute name="PACKAGE" value="Axial" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1258,12 +1268,14 @@ chip</description>
       <device name="AXIAL-220-1W-5%" package="0411/15">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="RES 220 OHM 5% 1W AXIAL" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Stackpole Electronics Inc" constant="no" />
          <attribute name="MPNS" value="RSF1JT220R" constant="no" />
          <attribute name="PACKAGE" value="Axial" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1277,12 +1289,14 @@ chip</description>
       <device name="AXIAL-1K-1W-5%" package="0411/15">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="RES 1K OHM 5% 1W AXIAL" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Stackpole Electronics Inc" constant="no" />
          <attribute name="MPNS" value="RSF1JT1K00" constant="no" />
          <attribute name="PACKAGE" value="Axial" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1296,12 +1310,14 @@ chip</description>
       <device name="AXIAL-180-2W-5%" package="0411/15">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="RES 180 OHM 5% 2W AXIAL" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="YAGEO" constant="no" />
          <attribute name="MPNS" value="RSF2WSJT-73-180R" constant="no" />
          <attribute name="PACKAGE" value="Axial" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1315,12 +1331,14 @@ chip</description>
       <device name="R0603" package="R0603">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="0603" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1334,12 +1352,14 @@ chip</description>
       <device name="R0402" package="R0402">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="0402" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1353,12 +1373,14 @@ chip</description>
       <device name="R1206" package="1206">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1369,12 +1391,14 @@ chip</description>
       <device name="R1210" package="1210">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1385,12 +1409,14 @@ chip</description>
       <device name="R0201" package="R0201">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1408,12 +1434,14 @@ chip</description>
       <device name="E2-5" package="E2-5">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="5MM (?)" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1427,12 +1455,14 @@ chip</description>
       <device name="" package="CAPPRD250W50D630H1120">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1446,12 +1476,14 @@ chip</description>
       <device name="8MM" package="CAP_RN_8X11P5_NCH">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="8MM" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1472,12 +1504,14 @@ chip</description>
       <device name="3386P-1-103LF" package="POT_3386P">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Bourns Electronics" constant="no" />
          <attribute name="MPNS" value="3386P-1-103LF" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1492,12 +1526,14 @@ chip</description>
       <device name="TC33X" package="TC33X">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="TC33X" constant="no" />
          <attribute name="PACKAGE" value="SMD" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1519,12 +1555,14 @@ chip</description>
       <device name="C0805" package="C0805">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="0805" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1538,12 +1576,14 @@ chip</description>
       <device name="RADIAL-2.2NF-400V-20%-Y5U" package="C927B_KEM">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="CAP CER 2200PF 400VAC Y5U RADIAL" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Kemet" constant="no" />
          <attribute name="MPNS" value="C927U222MYWDBA7317" constant="no" />
          <attribute name="PACKAGE" value="Radial" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1557,12 +1597,14 @@ chip</description>
       <device name="B32922X/Y" package="B32922X/Y">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="0.68 &#181;F Film Capacitor 275V 500V Polypropylene (PP), Metallized Radial, X2" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="TDK" constant="no" />
          <attribute name="MPNS" value="B32922X2684K000" constant="no" />
          <attribute name="PACKAGE" value="TH" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1576,12 +1618,14 @@ chip</description>
       <device name="C0603" package="C0603">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="0603" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1595,12 +1639,14 @@ chip</description>
       <device name="C0402" package="C0402">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="0402" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1614,12 +1660,14 @@ chip</description>
       <device name="B32923X/Y" package="B32923X/Y">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="0.68 &#181;F Film Capacitor 275V 500V Polypropylene (PP), Metallized Radial, X2" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="TDK" constant="no" />
          <attribute name="MPNS" value="B32923X2684K000" constant="no" />
          <attribute name="PACKAGE" value="TH" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1630,12 +1678,14 @@ chip</description>
       <device name="C1206" package="1206">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1649,12 +1699,14 @@ chip</description>
       <device name="C1210" package="1210">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1665,12 +1717,14 @@ chip</description>
       <device name="C0201" package="C0201">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1688,12 +1742,14 @@ chip</description>
       <device name="SRP5015TA-2R2M" package="INDPM5752X150N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="2.2 &#181;H Shielded Drum Core, Wirewound Inductor 4 A 52mOhm Max Nonstandard" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Bourns" constant="no" />
          <attribute name="MPNS" value="SRP5015TA-2R2M" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1707,12 +1763,14 @@ chip</description>
       <device name="SRR1240100M" package="SRR1240100M">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="10 &#181;H Shielded Drum Core, Wirewound Inductor 4 A 32mOhm Max Nonstandard" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Bourns" constant="no" />
          <attribute name="MPNS" value="SRR1240-100M" constant="no" />
          <attribute name="PACKAGE" value="Drum Core" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1726,12 +1784,14 @@ chip</description>
       <device name="NRS8030T4R7MJGJ" package="IND_TAIYO_NRS8030_TAY">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="FIXED IND 4.7UH 4A 28.6 MOHM SMD" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Taiyo Yuden" constant="no" />
          <attribute name="MPNS" value="NRS8030T4R7MJGJ" constant="no" />
          <attribute name="PACKAGE" value="8x8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1745,12 +1805,14 @@ chip</description>
       <device name="CLF12555T-151M-D" package="CLF12555-D">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="TDK" constant="no" />
          <attribute name="MPNS" value="CLF12555T-151M-D" constant="no" />
          <attribute name="PACKAGE" value="SMD" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1761,12 +1823,14 @@ chip</description>
       <device name="SLF12565T" package="IND_12565_TDK">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="Shielded Drum Core" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1784,12 +1848,14 @@ chip</description>
       <device name="" package="742C163105JP">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="CTS 74X Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-5% 0.063W +/-200ppm/C" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="CTS" constant="no" />
          <attribute name="MPNS" value="742C163103JP" constant="no" />
          <attribute name="PACKAGE" value="2506" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1824,12 +1890,14 @@ chip</description>
       <device name="2M6" package="MICROQFN6_1P45X1_STM-M">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="STMicroelectronics" constant="no" />
          <attribute name="MPNS" value="USBULC6-2M6" constant="no" />
          <attribute name="PACKAGE" value="uQFN-6" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1854,12 +1922,14 @@ chip</description>
       <device name="" package="BV301S12010-ZU">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="PWR XFMR LAMINATED 1VA TH" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Zettler Magnetics" constant="no" />
          <attribute name="MPNS" value="BV301S12010-ZU" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -1882,12 +1952,14 @@ chip</description>
       <device name="" package="C0603">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="1.8 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0603 (1608 Metric) 100mA 750mOhm" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Wurth Electronics" constant="no" />
          <attribute name="MPNS" value="782631182" constant="no" />
          <attribute name="PACKAGE" value="0603" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Resistor" constant="no" />
         </technology>
        </technologies>
        <connects>

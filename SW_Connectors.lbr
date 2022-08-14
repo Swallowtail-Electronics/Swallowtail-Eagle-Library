@@ -4759,12 +4759,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="KEYSTONE_575-4">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Keystone Electronics" constant="no" />
          <attribute name="MPNS" value="575-4" constant="no" />
          <attribute name="PACKAGE" value="Banana Plug" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -4784,12 +4786,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="TE_5-1634503-1">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value=" Rf / Coaxial Connector, Bnc Coaxial, Straight Jack, Solder, 50 Ohm, Brass " constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="TE Connectivity" constant="no" />
          <attribute name="MPNS" value="5-1634503-1" constant="no" />
          <attribute name="PACKAGE" value="TH" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -4810,12 +4814,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="2X3-NS">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Connector Header Through Hole 6 position 0.100&quot; (2.54mm)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="METZ CONNECT USA Inc." constant="no" />
          <attribute name="MPNS" value="PR20203VBDN" constant="no" />
          <attribute name="PACKAGE" value="3x2" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -4840,12 +4846,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="1289STR">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Terminals MALE .250 QUICK FIT STURDI MNT 15A .540H" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Keystone Electronics" constant="no" />
          <attribute name="MPNS" value="1289-STR" constant="no" />
          <attribute name="PACKAGE" value="0.25 Quick Fit Tab" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -4866,12 +4874,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="691322310004">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="4-POS" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -4894,12 +4904,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="FCI_10118193-0001LF">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole " constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Amphenol ICC" constant="no" />
          <attribute name="MPNS" value="10118193-0001LF" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -4924,12 +4936,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="_SMD" package="SAMTECH_FTSH-105-01">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Connector Header Surface Mount 10 position 0.050&quot; (1.27mm)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Sullins Connector Solutions" constant="no" />
          <attribute name="MPNS" value="S9012E-05-ND" constant="no" />
          <attribute name="PACKAGE" value="5x2" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -4958,12 +4972,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="AM-K-PCB">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="SOCKET, K, ANSI, MINI, PCB" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="LABFACILITY" constant="no" />
          <attribute name="MPNS" value="AM-K-PCB" constant="no" />
          <attribute name="PACKAGE" value="TH" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -4984,12 +5000,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="_DEANS" package="DEANS">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Deans Connector - M/F Pair" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="Deans" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5010,12 +5028,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="25&#8722;B200-02">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="2 Circuit 0.374&quot; (9.50mm) Barrier Block Connector Screws with Captive Plate" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="NTE Electronics, Inc" constant="no" />
          <attribute name="MPNS" value="25-B200-02" constant="no" />
          <attribute name="PACKAGE" value="9.5mm Pitch" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5036,12 +5056,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="691322310003">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="3-POS" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5063,12 +5085,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="691322310002">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="2-POS" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5089,12 +5113,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="691322310008">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="8-POS" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5121,12 +5147,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="54602-908LF_1">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="FCI,54602-908LF,Connector,Modular Amphenol FCI Cat3 RJ45 Connector Socket, Right Angle, Through Hole 54602" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Amphenol ICC" constant="no" />
          <attribute name="MPNS" value="54602-908LF" constant="no" />
          <attribute name="PACKAGE" value="RJ-45" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5153,12 +5181,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="1X23">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="1x23" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5200,12 +5230,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="1X03">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="1x3" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5227,12 +5259,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="FEMALE" package="2X3">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="2x3" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5257,12 +5291,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="CONN10_302-S101_OST">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="CONN HEADER VERT 10POS 2.54MM" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="On Shore Technology Inc" constant="no" />
          <attribute name="MPNS" value="302-S101" constant="no" />
          <attribute name="PACKAGE" value="CON2x5" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5291,12 +5327,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="_SMD" package="SAMTECH_FTSH-105-01">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="2x5" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5325,12 +5363,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="MALE" package="DB9_MALE">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="9 Position D-Sub Plug, Male Pins Connector" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Adam Tech" constant="no" />
          <attribute name="MPNS" value="DE09-PL-25" constant="no" />
          <attribute name="PACKAGE" value="DB9" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5358,12 +5398,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="PCC-SMD">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="THERMOCOUPLE CONNECTOR" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Omega" constant="no" />
          <attribute name="MPNS" value="PCC-SMD-20" constant="no" />
          <attribute name="PACKAGE" value="PCC-SMD" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5384,12 +5426,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="JS-1MM" package="1X04_1MM_RA">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="JST" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="JSTM-4 SMD" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5412,12 +5456,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="GX-16-2">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="2PIN 16mm GX16-2 pin plug cable connector plug Aviation Plug Male &amp; Female Wire Panel Metal Connector 16mm 2 Pin GX16-2 2-Pin" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Banggood" constant="no" />
          <attribute name="MPNS" value="GX16-2" constant="no" />
          <attribute name="PACKAGE" value="GX16" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5438,12 +5484,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="1X24_LONG">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="1x24" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5486,12 +5534,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="XT-30_HORIZONTAL">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="XT-30 Horizontal PCB Mount" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Amass" constant="no" />
          <attribute name="MPNS" value="61006" constant="no" />
          <attribute name="PACKAGE" value="XT-30" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5512,12 +5562,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="CB" package="1X06-CLEANBIG">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="1x6" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5542,12 +5594,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="-SMT-RA" package="JST-PH-2-SMT-RA">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="JST" constant="no" />
          <attribute name="MPNS" value="S2B-PH-SM4" constant="no" />
          <attribute name="PACKAGE" value="JST-2 SMT" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5561,12 +5615,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="JST-PH-2-THM">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="JST-2-TH" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5587,12 +5643,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="POWER_JACK_PTH">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Power Barrel Connector Jack 2.10mm ID (0.083&quot;), 5.50mm OD (0.217&quot;) Through Hole, Right Angle" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="CUI Devices" constant="no" />
          <attribute name="MPNS" value="PJ-002A" constant="no" />
          <attribute name="PACKAGE" value="5.5mm Barrel Jack" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5614,12 +5672,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="WE" package="68714014022">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="FPC40" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5678,12 +5738,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="PSX_VERTICAL">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="PSX-CONN" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5703,12 +5765,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="PSX_HORIZONTAL" package="PSX_HORIZONTAL">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="PSX-CONN" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5735,12 +5799,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="HANRUN_HR911105A">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value=" HR911105A Ethernet Interface Arduino Platform Evaluation Expansion Board " constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="DFRobot" constant="no" />
          <attribute name="MPNS" value="HR911105A" constant="no" />
          <attribute name="PACKAGE" value="RJ-45" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5771,12 +5837,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="1.0PITCH" package="CONN_68611214422_WRE">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="CONN FPC BOTTOM 12POS 1.00MM R/A" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Wurth Electronics" constant="no" />
          <attribute name="MPNS" value="68611214422" constant="no" />
          <attribute name="PACKAGE" value="FPC12" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5800,12 +5868,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="0.5PITCH" package="CON12_1X12_DRB_58GF_JAE">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="FPC12" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5836,12 +5906,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="_PTH" package="USB-B-PTH">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="USB-B (USB TYPE-B) USB 2.0 Receptacle Connector 4 Position Through Hole, Right Angle" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Kycon, Inc." constant="no" />
          <attribute name="MPNS" value="KUSBEX-BSFS1N-W" constant="no" />
          <attribute name="PACKAGE" value="USB-B TH" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5865,12 +5937,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="AMASS_XT60-M">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value=" Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V " constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="AMASS" constant="no" />
          <attribute name="MPNS" value="XT60-M" constant="no" />
          <attribute name="PACKAGE" value="XT-60" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5891,12 +5965,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="ST1213-P2">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="2-Pin Threaded Automotive Connector" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Weipu" constant="no" />
          <attribute name="MPNS" value="ST1213-P2" constant="no" />
          <attribute name="PACKAGE" value="ST1213" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5917,12 +5993,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="GCT_USB4105_REVA">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value=" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole " constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Global Connector Technology" constant="no" />
          <attribute name="MPNS" value="USB4105" constant="no" />
          <attribute name="PACKAGE" value="USB-C SMD" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5951,12 +6029,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="2X05">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="2x5" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -5985,12 +6065,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="MOLEX-1X6">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="1x6" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -6016,12 +6098,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="JST-6-SMD-HORI-1.0MM">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Connector Header Surface Mount, Right Angle 6 position 0.039&quot; (1.00mm)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="JST" constant="no" />
          <attribute name="MPNS" value="SM06B-SRSS-TB(LF)(SN)" constant="no" />
          <attribute name="PACKAGE" value="JSTM-6 SMD" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -6048,12 +6132,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="1X22">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="1x22" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -6094,12 +6180,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="1X13">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -6131,12 +6219,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="1X09">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -6161,12 +6251,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="" package="1X05">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -6190,12 +6282,14 @@ This 6 pin header contains all the lines necessary for programming most PIC micr
       <device name="-3.5MM" package="1X2-3.5MM">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Wurth Electronics" constant="no" />
          <attribute name="MPNS" value="691103110002" constant="no" />
          <attribute name="PACKAGE" value="3.5mm" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Connector" constant="no" />
         </technology>
        </technologies>
        <connects>

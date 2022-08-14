@@ -604,12 +604,14 @@
       <device name="" package="DRV8838-POLOLU">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Motor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -638,12 +640,14 @@
       <device name="" package="1X03">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Motor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -665,12 +669,14 @@
       <device name="" package="QFP50P1200X1200X120-64N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Motor / Motion / Ignition Controllers &amp; Drivers Stepping Motor Driver IC 4.5A" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Toshiba" constant="no" />
          <attribute name="MPNS" value="TB6600FG" constant="no" />
          <attribute name="PACKAGE" value="TQFP-64" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Motor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -753,12 +759,14 @@
       <device name="" package="SOIC127P600X170-9N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Motor / Motion / Ignition Controllers &amp; Drivers 3.6A Brushed DC Motor Driver with Integrated Current Sensing (PWM Ctrl) 8-SO PowerPAD -40 to 125" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="DRV8871DDA" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8 PowerPad" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Motor" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -786,12 +794,14 @@
       <device name="" package="DRV8835-POLOLU">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Motor" constant="no" />
         </technology>
        </technologies>
        <connects>

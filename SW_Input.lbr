@@ -451,12 +451,14 @@
       <device name="" package="SW_EG1215AA">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value=" Slide Switch SPDT Surface Mount, Right Angle " constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="E-Switch" constant="no" />
          <attribute name="MPNS" value="EG1215AA" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Buttons &amp; Switches" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -478,12 +480,14 @@
       <device name="" package="AYZ0202AGRLC_CNK">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="C&amp;K" constant="no" />
          <attribute name="MPNS" value="AYZ0202AGRLC" constant="no" />
          <attribute name="PACKAGE" value="DPDT" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Buttons &amp; Switches" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -508,12 +512,14 @@
       <device name="5MM-NO" package="TACTILE_SWITCH_PTH_6.0MM">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="THROUGH-HOLE TACTILE SWITCH, SPS" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="CIT Relay and Switch" constant="no" />
          <attribute name="MPNS" value="CT11025.0F160" constant="no" />
          <attribute name="PACKAGE" value="5MM" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Buttons &amp; Switches" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -527,12 +533,14 @@
       <device name="6MM-NO" package="TACTILE_SWITCH_PTH_6.0MM">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="6 X 6 MM, 6 MM ACTUATOR HEIGHT," constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="CUI Devices" constant="no" />
          <attribute name="MPNS" value="TS02-66-60-BK-260-SCR-D" constant="no" />
          <attribute name="PACKAGE" value="6MM" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Buttons &amp; Switches" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -546,12 +554,14 @@
       <device name="KMR231GLFS" package="KMR2_1">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Buttons &amp; Switches" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -565,12 +575,14 @@
       <device name="R1966ABLKBLKFR" package="SW_R1966ABLKBLKFR_EWI">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="E-Switch" constant="no" />
          <attribute name="MPNS" value="R1966ABLKBLKFR" constant="no" />
          <attribute name="PACKAGE" value="Rocker" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Buttons &amp; Switches" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -591,12 +603,14 @@
       <device name="" package="ROTARY_ENC_PLAIN">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Bourns Inc." constant="no" />
          <attribute name="MPNS" value="PEC11R-4215K-S0012" constant="no" />
          <attribute name="PACKAGE" value="TH" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Buttons &amp; Switches" constant="no" />
         </technology>
        </technologies>
        <connects>

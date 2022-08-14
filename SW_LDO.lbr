@@ -659,12 +659,14 @@ MSOP&lt;br&gt;
       <device name="" package="SOT230P700X190-4N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -687,12 +689,14 @@ MSOP&lt;br&gt;
       <device name="" package="SOT230P700X190-4N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -715,12 +719,14 @@ MSOP&lt;br&gt;
       <device name="D2PAK3_ONS-L" package="D2PAK3_ONS-L">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -742,12 +748,14 @@ MSOP&lt;br&gt;
       <device name="DFN8_3X3MC_MCH-M" package="DFN8_3X3MC_MCH-M">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -775,12 +783,14 @@ MSOP&lt;br&gt;
       <device name="" package="SOT223-3_ONS">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -802,12 +812,14 @@ MSOP&lt;br&gt;
       <device name="" package="SON65P200X200X90-7N">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -833,12 +845,14 @@ MSOP&lt;br&gt;
       <device name="3.3VFIXED" package="DRV0006A-IPC_A">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -857,12 +871,14 @@ MSOP&lt;br&gt;
       <device name="5VFIXED" package="DRV0006A-IPC_A">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -888,12 +904,14 @@ MSOP&lt;br&gt;
       <device name="" package="SOT-25">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -917,12 +935,14 @@ MSOP&lt;br&gt;
       <device name="" package="SOT-25">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -946,12 +966,14 @@ MSOP&lt;br&gt;
       <device name="" package="MSOP8">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="," constant="no" />
+         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
         </technology>
        </technologies>
        <connects>

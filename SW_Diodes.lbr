@@ -615,12 +615,14 @@ Diode with low voltage drop</description>
       <device name="1N4007FLTR" package="SOD-123F">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="SOD-123F" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -634,12 +636,14 @@ Diode with low voltage drop</description>
       <device name="BAV21WS" package="SOD-323">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="SMC Diode Solutions" constant="no" />
          <attribute name="MPNS" value="BAV21WS" constant="no" />
          <attribute name="PACKAGE" value="SOD-323" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -650,12 +654,14 @@ Diode with low voltage drop</description>
       <device name="1N914BWS" package="SOD-323">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="onsemi" constant="no" />
          <attribute name="MPNS" value="1N914BWS" constant="no" />
          <attribute name="PACKAGE" value="SOD323" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -673,12 +679,14 @@ Diode with low voltage drop</description>
       <device name="" package="KBP206G">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Bridge Rectifier, 2A 600V, 4-Pin KBP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Diodes Inc." constant="no" />
          <attribute name="MPNS" value="KBP206G" constant="no" />
          <attribute name="PACKAGE" value="DIL-4" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -701,12 +709,14 @@ Diode with low voltage drop</description>
       <device name="1N5819HW-7-F" package="SOD-123">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="SOD-123" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -720,12 +730,14 @@ Diode with low voltage drop</description>
       <device name="RB161M-20TR" package="SOD-123F">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="SOD-123F" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -739,12 +751,14 @@ Diode with low voltage drop</description>
       <device name="LSM115JE3/TR13" package="DO-214BA">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="DO-214BA" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -765,12 +779,14 @@ Diode with low voltage drop</description>
       <device name="ACZRA4729-HF" package="SMA">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="SMA" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -784,12 +800,14 @@ Diode with low voltage drop</description>
       <device name="CLL4742ATRPBFREE" package="MELF">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="MELF" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -803,12 +821,14 @@ Diode with low voltage drop</description>
       <device name="SMAZ12-13-F" package="SMA">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="SMA" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -829,12 +849,14 @@ Diode with low voltage drop</description>
       <device name="0603" package="CHIP-LED0603">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="0603" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -845,12 +867,14 @@ Diode with low voltage drop</description>
       <device name="0805" package="CHIP-LED0805">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
          <attribute name="PACKAGE" value="0805" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -868,12 +892,14 @@ Diode with low voltage drop</description>
       <device name="" package="LED-TRICOLOR-5050">
        <technologies>
         <technology name="">
+         <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Inolux" constant="no" />
          <attribute name="MPNS" value="IN-P55TATRGB" constant="no" />
          <attribute name="PACKAGE" value="5050" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Diode" constant="no" />
         </technology>
        </technologies>
        <connects>
