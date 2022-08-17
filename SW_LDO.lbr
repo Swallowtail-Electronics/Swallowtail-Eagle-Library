@@ -261,7 +261,7 @@
      <wire x1="2.9972" y1="-5.8166" x2="2.9972" y2="-7.2644" width="0.1524" layer="21" />
      <text x="-5.715" y="-3.2766" size="0.8128" layer="25" font="vector" ratio="10" rot="SR90">&gt;Name</text>
     </package>
-    <package name="DFN8_3X3MC_MCH-M" urn="urn:adsk.eagle:footprint:30295882/1">
+    <package name="DFN8_3X3MC_MCH-M" urn="urn:adsk.eagle:footprint:30295882/1" locally_modified="yes">
      <smd name="1" x="-1.4224" y="0.975" dx="0.9652" dy="0.3048" layer="1" />
      <smd name="2" x="-1.4224" y="0.325" dx="0.9652" dy="0.3048" layer="1" />
      <smd name="3" x="-1.4224" y="-0.325" dx="0.9652" dy="0.3048" layer="1" />
@@ -284,8 +284,7 @@
      <wire x1="-0.3048" y1="1.4986" x2="-1.4986" y2="1.4986" width="0.1524" layer="51" />
      <wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="-1.4986" width="0.1524" layer="51" />
      <wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="51" curve="-180" />
-     <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-     <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+     <text x="-3.2766" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" rot="SR0">&gt;Name</text>
     </package>
     <package name="SOT223-3_ONS" urn="urn:adsk.eagle:footprint:30296042/1" locally_modified="yes">
      <smd name="1" x="-2.2987" y="-3.2258" dx="0.6096" dy="1.5494" layer="1" />
@@ -385,7 +384,7 @@
      </polygon>
      <text x="-1.27" y="1.27" size="0.8128" layer="21" font="vector" ratio="13">&gt;Name</text>
     </package>
-    <package name="SOT-25" urn="urn:adsk.eagle:footprint:32972476/1">
+    <package name="SOT-25" urn="urn:adsk.eagle:footprint:32972476/1" locally_modified="yes">
      <smd name="1" x="-1.39065" y="0.95" dx="1.1303" dy="0.4318" layer="1" />
      <smd name="2" x="-1.39065" y="0" dx="1.1303" dy="0.4318" layer="1" />
      <smd name="3" x="-1.39065" y="-0.95" dx="1.1303" dy="0.4318" layer="1" />
@@ -421,7 +420,6 @@
      <wire x1="-0.9652" y1="-1.5748" x2="0.9652" y2="-1.5748" width="0.1524" layer="21" />
      <wire x1="0.9652" y1="-0.4064" x2="0.9652" y2="0.4064" width="0.1524" layer="21" />
      <wire x1="0.9652" y1="1.5748" x2="-0.9652" y2="1.5748" width="0.1524" layer="21" />
-     <text x="-1.8288" y="0.8636" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
      <text x="-1.8796" y="2.159" size="0.8128" layer="25" font="vector" ratio="10" rot="SR0">&gt;Name</text>
     </package>
     <package name="MSOP8">
@@ -652,6 +650,7 @@ MSOP&lt;br&gt;
    </symbols>
    <devicesets>
     <deviceset name="LD1117S50TR" prefix="U">
+     <description>Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223</description>
      <gates>
       <gate name="G$1" symbol="LD1117S50TR" x="0" y="0" />
      </gates>
@@ -659,14 +658,14 @@ MSOP&lt;br&gt;
       <device name="" package="SOT230P700X190-4N">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="LD1117S50TR" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
+         <attribute name="MFGS" value="STMicroelectronics,STMicroelectronics" constant="no" />
+         <attribute name="MPNS" value="LD1117S50CTR,LD1117S50TR" constant="no" />
+         <attribute name="PACKAGE" value="SOT223" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -682,6 +681,7 @@ MSOP&lt;br&gt;
      </devices>
     </deviceset>
     <deviceset name="LM1117MPX-3.3" prefix="U">
+     <description>Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223-4</description>
      <gates>
       <gate name="G$1" symbol="LD1117S50TR-1" x="0" y="0" />
      </gates>
@@ -689,14 +689,14 @@ MSOP&lt;br&gt;
       <device name="" package="SOT230P700X190-4N">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="LM1117MPX-3.3" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223-4" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
+         <attribute name="MFGS" value="Texas Instruments,Texas Instruments" constant="no" />
+         <attribute name="MPNS" value="LM1117MPX-3.3,LM1117MPX-3.3/NOPB" constant="no" />
+         <attribute name="PACKAGE" value="SOT223-4" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -711,36 +711,8 @@ MSOP&lt;br&gt;
       </device>
      </devices>
     </deviceset>
-    <deviceset name="MC7806BD2TG" prefix="U">
-     <gates>
-      <gate name="A" symbol="MC7806BD2TG" x="0" y="0" />
-     </gates>
-     <devices>
-      <device name="D2PAK3_ONS-L" package="D2PAK3_ONS-L">
-       <technologies>
-        <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
-         <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
-        </technology>
-       </technologies>
-       <connects>
-        <connect gate="A" pin="GND" pad="4" />
-        <connect gate="A" pin="INPUT" pad="1" />
-        <connect gate="A" pin="OUTPUT" pad="3" />
-       </connects>
-       <package3dinstances>
-        <package3dinstance package3d_urn="urn:adsk.eagle:package:30296054/2" />
-       </package3dinstances>
-      </device>
-     </devices>
-    </deviceset>
     <deviceset name="MCP1726-5002E/MF" prefix="U">
+     <description>Linear Voltage Regulator IC Positive Fixed 1 Output 1A 8-DFN (3x3)</description>
      <gates>
       <gate name="A" symbol="MCP1726-1802E/MF" x="0" y="0" />
      </gates>
@@ -748,14 +720,14 @@ MSOP&lt;br&gt;
       <device name="DFN8_3X3MC_MCH-M" package="DFN8_3X3MC_MCH-M">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="MCP1726-5002E/MF-ND" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 1A 8-DFN (3x3)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
+         <attribute name="MFGS" value="Microchip,Microchip" constant="no" />
+         <attribute name="MPNS" value="MCP1726-5002E/MF,MCP1726T-5002E/MF" constant="no" />
+         <attribute name="PACKAGE" value="8-DFN" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -776,6 +748,7 @@ MSOP&lt;br&gt;
      </devices>
     </deviceset>
     <deviceset name="NCP1117LPST50T3G" prefix="U">
+     <description>Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223</description>
      <gates>
       <gate name="A" symbol="NCP1117LPST50T3G" x="0" y="0" />
      </gates>
@@ -783,14 +756,14 @@ MSOP&lt;br&gt;
       <device name="" package="SOT223-3_ONS">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="NCP1117LPST50T3G" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
+         <attribute name="MFGS" value="onsemi" constant="no" />
+         <attribute name="MPNS" value="NCP1117LPST50T3G" constant="no" />
+         <attribute name="PACKAGE" value="SOT-223" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -804,7 +777,8 @@ MSOP&lt;br&gt;
       </device>
      </devices>
     </deviceset>
-    <deviceset name="MIC5219-3.3YML-TR" prefix="U">
+    <deviceset name="MIC5219-X.XYML-TR" prefix="U">
+     <description>Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 6-DFN (2x2)</description>
      <gates>
       <gate name="G$1" symbol="MIC5219-3.3YML-TR" x="0" y="0" />
      </gates>
@@ -812,14 +786,14 @@ MSOP&lt;br&gt;
       <device name="" package="SON65P200X200X90-7N">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="MIC5219-3.3YML" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 6-DFN (2x2)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
+         <attribute name="MFGS" value="Microchip" constant="no" />
+         <attribute name="MPNS" value="MIC5219-3.3YML-TR" constant="no" />
+         <attribute name="PACKAGE" value="6-DFN" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -838,47 +812,32 @@ MSOP&lt;br&gt;
      </devices>
     </deviceset>
     <deviceset name="TLV767**DRVR" prefix="U">
+     <description>Linear Voltage Regulator IC Positive Fixed 1 Output 1A 6-WSON (2x2)</description>
      <gates>
       <gate name="A" symbol="TLV76750DRV" x="0" y="0" />
      </gates>
      <devices>
-      <device name="3.3VFIXED" package="DRV0006A-IPC_A">
-       <technologies>
-        <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
-         <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
-        </technology>
-       </technologies>
-       <connects>
-        <connect gate="A" pin="EN" pad="4" />
-        <connect gate="A" pin="GND" pad="5" />
-        <connect gate="A" pin="GND_2" pad="3" />
-        <connect gate="A" pin="IN" pad="6" />
-        <connect gate="A" pin="OUT" pad="1" />
-        <connect gate="A" pin="SNS" pad="2" />
-        <connect gate="A" pin="THERMAL_PAD" pad="7" />
-       </connects>
-       <package3dinstances>
-        <package3dinstance package3d_urn="urn:adsk.eagle:package:33611947/2" />
-       </package3dinstances>
-      </device>
       <device name="5VFIXED" package="DRV0006A-IPC_A">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="TLV76750DRV" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 1A 6-WSON (2x2)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
+         <attribute name="MFGS" value="Microchip,Microchip" constant="no" />
+         <attribute name="MPNS" value="TLV76750DRVR,TLV76750DRVT" constant="no" />
+         <attribute name="PACKAGE" value="6-WSON" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
+        </technology>
+        <technology name="3.3">
+         <attribute name="PART_NUMBER" value="TLV76733DRV" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 1A 6-WSON (2x2)" constant="no" />
+         <attribute name="DNP" value="" constant="no" />
+         <attribute name="MFGS" value="Microchip,Microchip" constant="no" />
+         <attribute name="MPNS" value="TLV76733DRVR,TLV76733DRVT" constant="no" />
+         <attribute name="PACKAGE" value="6-WSON" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -897,6 +856,7 @@ MSOP&lt;br&gt;
      </devices>
     </deviceset>
     <deviceset name="XC6209F332MR-G" prefix="U">
+     <description>Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-25-5</description>
      <gates>
       <gate name="A" symbol="SOT-25" x="0" y="0" />
      </gates>
@@ -904,14 +864,14 @@ MSOP&lt;br&gt;
       <device name="" package="SOT-25">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="XC6209F332MR-G" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-25-5" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
+         <attribute name="MFGS" value="Torex Semiconductor Ltd" constant="no" />
+         <attribute name="MPNS" value="XC6209F332MR-G" constant="no" />
+         <attribute name="PACKAGE" value="SOT-25-5" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -927,7 +887,8 @@ MSOP&lt;br&gt;
       </device>
      </devices>
     </deviceset>
-    <deviceset name="MIC5216-5.0YM5-TR" prefix="U">
+    <deviceset name="MIC5216-X.XYM5-TR" prefix="U">
+     <description>Linear Voltage Regulator IC Positive Fixed 1 Output 500mA SOT-23-5</description>
      <gates>
       <gate name="A" symbol="MIC5216-5.0YM5-TR" x="-15.24" y="-5.08" />
      </gates>
@@ -935,14 +896,24 @@ MSOP&lt;br&gt;
       <device name="" package="SOT-25">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="MIC5216-5.0YM5" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 500mA SOT-23-5" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
+         <attribute name="MFGS" value="Microchip" constant="no" />
+         <attribute name="MPNS" value="MIC5216-5.0YM5-TR" constant="no" />
+         <attribute name="PACKAGE" value="SOT23-5" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
+        </technology>
+        <technology name="3.3">
+         <attribute name="PART_NUMBER" value="MIC5216-3.3YM5" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 500mA SOT-23-5" constant="no" />
+         <attribute name="DNP" value="" constant="no" />
+         <attribute name="MFGS" value="Microchip" constant="no" />
+         <attribute name="MPNS" value="MIC5216-3.3YM5-TR" constant="no" />
+         <attribute name="PACKAGE" value="SOT23-5" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -959,6 +930,7 @@ MSOP&lt;br&gt;
      </devices>
     </deviceset>
     <deviceset name="MIC3975-3.3YMM" prefix="U">
+     <description>Linear Voltage Regulator IC Positive Fixed 1 Output 750mA 8-MSOP</description>
      <gates>
       <gate name="G$1" symbol="MIC3975-3.3YMM" x="-12.7" y="5.08" />
      </gates>
@@ -966,14 +938,14 @@ MSOP&lt;br&gt;
       <device name="" package="MSOP8">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="MIC3975-3.3YMM" constant="no" />
+         <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 750mA 8-MSOP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="," constant="no" />
-         <attribute name="CATEGORY" value="Linear Regulator" constant="no" />
+         <attribute name="MFGS" value="Microchip,Microchip" constant="no" />
+         <attribute name="MPNS" value="MIC3975-3.3YMM,MIC3975-3.3YMM-TR" constant="no" />
+         <attribute name="PACKAGE" value="8-MSOP" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>

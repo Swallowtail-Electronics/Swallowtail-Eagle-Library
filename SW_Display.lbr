@@ -652,11 +652,11 @@
       <device name="" package="QFN50P700X700X100-49N">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="FT810Q" constant="no" />
          <attribute name="DESCRIPTION" value="IC VIDEO GRAPHIC CNTL 48VQFN" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="Bridgetek Pte Ltd." constant="no" />
-         <attribute name="MPNS" value="FT810Q-T" constant="no" />
+         <attribute name="MFGS" value="Bridgetek Pte Ltd.,Bridgetek Pte Ltd." constant="no" />
+         <attribute name="MPNS" value="FT810Q-T,FT810Q-R" constant="no" />
          <attribute name="PACKAGE" value="48-VQFN (7x7)" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
          <attribute name="CATEGORY" value="Display" constant="no" />

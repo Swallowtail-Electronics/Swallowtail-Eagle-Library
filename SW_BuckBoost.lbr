@@ -336,6 +336,7 @@
    </symbols>
    <devicesets>
     <deviceset name="AP62200" prefix="U">
+     <description>Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</description>
      <gates>
       <gate name="G$1" symbol="AP62200" x="0" y="0" />
      </gates>
@@ -343,14 +344,14 @@
       <device name="" package="SOT-23-6">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="AP62200WU-7" constant="no" />
          <attribute name="DESCRIPTION" value="Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 2A SOT-23-6 Thin, TSOT-23-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="Diodes Incorporated" constant="no" />
-         <attribute name="MPNS" value="AP62200WU-7" constant="no" />
+         <attribute name="MFGS" value="Diodes Incorporated,Diodes Incorporated" constant="no" />
+         <attribute name="MPNS" value="AP62200WU-7,AP62200TWU-7" constant="no" />
          <attribute name="PACKAGE" value="TSOT-23-6" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -368,6 +369,7 @@
      </devices>
     </deviceset>
     <deviceset name="LMR33610ADDAR" prefix="U">
+     <description>Buck Switching Regulator IC Positive Adjustable 1V 1 Output 1A 8-PowerSOIC (0.154", 3.90mm Width)</description>
      <gates>
       <gate name="G$1" symbol="LMR33630ADDAR-1" x="0" y="0" />
      </gates>
@@ -375,24 +377,24 @@
       <device name="LMR336" package="SOIC-8-EP">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="LMR33610ADDAR" constant="no" />
          <attribute name="DESCRIPTION" value="SIMPLE SWITCHER 3.8V to 36V, 1A Synchronous Buck Converter With Ultra-Low EMI" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="LMR33610ADDAR" constant="no" />
          <attribute name="PACKAGE" value="PPSOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
         <technology name="LMR33630ADDAR">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="LMR33630ADDAR" constant="no" />
          <attribute name="DESCRIPTION" value="SIMPLE SWITCHER 3.8V to 36V, 3A Synchronous Buck Converter With Ultra-Low EMI" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
-         <attribute name="MPNS" value="LMR336030ADDAR" constant="no" />
+         <attribute name="MPNS" value="LMR33630ADDAR" constant="no" />
          <attribute name="PACKAGE" value="PPSOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -413,6 +415,7 @@
      </devices>
     </deviceset>
     <deviceset name="RT8288AZSP" prefix="U">
+     <description>Buck Switching Regulator IC Positive Adjustable 0.808V 1 Output 4A 8-SOIC (0.154", 3.90mm Width) Exposed Pad</description>
      <gates>
       <gate name="G$1" symbol="RT8288AZSP" x="-5.08" y="-2.54" />
      </gates>
@@ -420,14 +423,14 @@
       <device name="" package="SOIC-8-EP">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="RT8288A" constant="no" />
          <attribute name="DESCRIPTION" value="IC REG BUCK ADJUSTABLE 4A 8SOP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Richtek USA Inc." constant="no" />
          <attribute name="MPNS" value="RT8288AZSP" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8-EP" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -446,6 +449,7 @@
      </devices>
     </deviceset>
     <deviceset name="MC34063" prefix="U">
+     <description>Buck, Boost Switching Regulator IC Positive or Negative Adjustable 1.25V 1 Output 1.5A (Switch) 8-SOIC (0.154", 3.90mm Width)</description>
      <gates>
       <gate name="G$1" symbol="MC34063AD" x="0" y="0" />
      </gates>
@@ -453,14 +457,14 @@
       <device name="" package="SO08">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="MC34063AD" constant="no" />
+         <attribute name="DESCRIPTION" value="Buck, Boost Switching Regulator IC Positive or Negative Adjustable 1.25V 1 Output 1.5A (Switch) 8-SOIC (0.154&quot;, 3.90mm Width)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments" constant="no" />
          <attribute name="MPNS" value="MC34063AD" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -477,6 +481,7 @@
      </devices>
     </deviceset>
     <deviceset name="RT7272B" prefix="U">
+     <description>Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3A 8-SOIC (0.154", 3.90mm Width) Exposed Pad</description>
      <gates>
       <gate name="G$1" symbol="RT7272B" x="-15.24" y="7.62" />
      </gates>
@@ -484,14 +489,14 @@
       <device name="" package="SOIC-8-EP">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="RT7272B" constant="no" />
+         <attribute name="DESCRIPTION" value="Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3A 8-SOIC (0.154&quot;, 3.90mm Width) Exposed Pad" constant="no" />
          <attribute name="DNP" value="" constant="no" />
-         <attribute name="MFGS" value="" constant="no" />
-         <attribute name="MPNS" value="" constant="no" />
+         <attribute name="MFGS" value="Richtek USA Inc." constant="no" />
+         <attribute name="MPNS" value="RT7272BGSP" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Switching Regulator" constant="no" />
+         <attribute name="CATEGORY" value="Power" constant="no" />
         </technology>
        </technologies>
        <connects>
