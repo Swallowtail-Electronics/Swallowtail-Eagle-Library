@@ -615,6 +615,7 @@ Diode with low voltage drop</description>
       <device name="1N4007FLTR" package="SOD-123F">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -636,6 +637,7 @@ Diode with low voltage drop</description>
       <device name="BAV21WS" package="SOD-323">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -654,6 +656,7 @@ Diode with low voltage drop</description>
       <device name="1N914BWS" package="SOD-323">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -679,6 +682,7 @@ Diode with low voltage drop</description>
       <device name="" package="KBP206G">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Bridge Rectifier, 2A 600V, 4-Pin KBP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -709,6 +713,7 @@ Diode with low voltage drop</description>
       <device name="1N5819HW-7-F" package="SOD-123">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -730,6 +735,7 @@ Diode with low voltage drop</description>
       <device name="RB161M-20TR" package="SOD-123F">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -751,6 +757,7 @@ Diode with low voltage drop</description>
       <device name="LSM115JE3/TR13" package="DO-214BA">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -779,6 +786,7 @@ Diode with low voltage drop</description>
       <device name="ACZRA4729-HF" package="SMA">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -800,6 +808,7 @@ Diode with low voltage drop</description>
       <device name="CLL4742ATRPBFREE" package="MELF">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -821,6 +830,7 @@ Diode with low voltage drop</description>
       <device name="SMAZ12-13-F" package="SMA">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -849,6 +859,7 @@ Diode with low voltage drop</description>
       <device name="0603" package="CHIP-LED0603">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -867,6 +878,7 @@ Diode with low voltage drop</description>
       <device name="0805" package="CHIP-LED0805">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -892,6 +904,7 @@ Diode with low voltage drop</description>
       <device name="" package="LED-TRICOLOR-5050">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />

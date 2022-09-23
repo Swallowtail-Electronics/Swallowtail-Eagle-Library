@@ -465,6 +465,7 @@ Switches electrical signals</description>
       <device name="" package="TO220">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="MOSFET N-CH 100V 22A TO220AB" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -487,6 +488,7 @@ Switches electrical signals</description>
       <device name="TO262" package="TO262-V">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="MOSFET N-CH 100V 36A TO262" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -516,6 +518,7 @@ Switches electrical signals</description>
       <device name="2N7000" package="2N7000">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="MOSFET N-CH 60V 350MA TO92-3" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -546,6 +549,7 @@ Switches electrical signals</description>
       <device name="" package="SOT363_PHILIPS">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="MOSFET 2P-CH 20V 1.3A SC70-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -578,6 +582,7 @@ Switches electrical signals</description>
       <device name="" package="SOT23-3">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -604,6 +609,7 @@ Switches electrical signals</description>
       <device name="" package="SOT230P700X190-4N">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />

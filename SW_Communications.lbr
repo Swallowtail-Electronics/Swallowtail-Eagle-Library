@@ -1251,7 +1251,8 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="" package="2X04">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000859" constant="no" />
+         <attribute name="PART_NUMBER" value="nRF24L01+ Module" constant="no" />
          <attribute name="DESCRIPTION" value="Single chip radio transceiver for the world wide 2.4 - 2.5 GHz ISM band. The transceiver consists of a fully integrated frequency synthesizer, a power amplifier, a crystal oscillator, a demodulator, modulator and Enhanced ShockBurst&#8482; protocol engine." constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Nordic Semiconductor" constant="no" />
@@ -1285,6 +1286,7 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="" package="1X06_HC_05">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Bluetooth to UART Module" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1317,6 +1319,7 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="" package="QFN-32">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="1/1 Transceiver Full MII, RMII 32-QFN (5x5)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1376,7 +1379,8 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="SO" package="SO18W">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000860" constant="no" />
+         <attribute name="PART_NUMBER" value="MCP2515T-I/SO" constant="no" />
          <attribute name="DESCRIPTION" value="IC CAN CONTROLLER W/SPI 18SOIC" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
@@ -1386,7 +1390,8 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
          <attribute name="CATEGORY" value="Communications" constant="no" />
         </technology>
         <technology name="MCP2510">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000861" constant="no" />
+         <attribute name="PART_NUMBER" value="MCP2510T-I/SO" constant="no" />
          <attribute name="DESCRIPTION" value="IC CAN CONTROLLER W/SPI 18-SOIC" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
@@ -1430,7 +1435,8 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="ML" package="QFN-28">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000862" constant="no" />
+         <attribute name="PART_NUMBER" value="ENC28J60-I/ML" constant="no" />
          <attribute name="DESCRIPTION" value=" Ethernet Controller 10 Base-T PHY SPI Interface 28-QFN (6x6) " constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technologies" constant="no" />
@@ -1477,7 +1483,8 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="SO" package="SOIC28-W">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000863" constant="no" />
+         <attribute name="PART_NUMBER" value="ENC28J60-I/SO" constant="no" />
          <attribute name="DESCRIPTION" value=" Ethernet Controller 10 Base-T PHY SPI Interface SOIC-28" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
@@ -1524,8 +1531,9 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="SS" package="SSOP28">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000864" constant="no" />
+         <attribute name="PART_NUMBER" value="ENC28J60T/SS" constant="no" />
+         <attribute name="DESCRIPTION" value="Ethernet Controller 10 Base-T PHY SPI Interface 28-SSOP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
          <attribute name="MPNS" value="ENC28J60T/SS" constant="no" />
@@ -1575,7 +1583,8 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="" package="SOIC-8">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000865" constant="no" />
+         <attribute name="PART_NUMBER" value="MCP2562FD-E/SN" constant="no" />
          <attribute name="DESCRIPTION" value="8Mbps CAN Flex. Data Transceiver SOIC8 Microchip MCP2562FD-E/SN, CAN Transceiver 2 Mbit/s, 5 Mbit/s, 8 Mbit/s 1-channel ISO 11898-2, ISO 11898-5, 8-Pin SOIC" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
@@ -1609,6 +1618,7 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="" package="QFN-20-FFW">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Full Speed USB to UART Bridge USB 2.0 3.3V T/R Automotive 20-Pin QFN EP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1656,7 +1666,8 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="" package="SOIC8">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000866" constant="no" />
+         <attribute name="PART_NUMBER" value="CH340N" constant="no" />
          <attribute name="DESCRIPTION" value="USB to UART Bridge" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="WCH" constant="no" />
@@ -1690,7 +1701,8 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
       <device name="" package="SOIC-8">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000867" constant="no" />
+         <attribute name="PART_NUMBER" value="MCP2561-E/SN" constant="no" />
          <attribute name="DESCRIPTION" value="CAN Transceiver 1Mbps 5V 125degC SOIC8 Microchip MCP2561-E/SN, CAN Transceiver 1MBps 1-channel IEC 61000-4-2, 8-Pin SOIC" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />

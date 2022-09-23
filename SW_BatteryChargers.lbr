@@ -418,6 +418,7 @@
       <device name="" package="SOP50P490X110-11N">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="SW0000839" constant="no" />
          <attribute name="PART_NUMBER" value="BQ24091DGQ" constant="no" />
          <attribute name="DESCRIPTION" value="Texas Instruments BQ24091DGQ, Battery Charge Controller, 1000mA, 10-Pin MSOP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -456,6 +457,7 @@
       <device name="SO8" package="SO08">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="SW0000840" constant="no" />
          <attribute name="PART_NUMBER" value="MAX1811ESA+" constant="no" />
          <attribute name="DESCRIPTION" value="USB li-ion battery charger/Single cell" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -491,6 +493,7 @@
       <device name="" package="SON50P300X200X100-9N">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="SW0000841" constant="no" />
          <attribute name="PART_NUMBER" value="MCP73831-5ACI/MC" constant="no" />
          <attribute name="DESCRIPTION" value="Battery Management Li-Ion/Li-Poly Charg Mgnt 4.5V Vreg out" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -527,6 +530,7 @@
       <device name="-SOP8" package="SO08-SKINNYPADS">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="SW0000842" constant="no" />
          <attribute name="PART_NUMBER" value="ME4057" constant="no" />
          <attribute name="DESCRIPTION" value="1.3A Lithium Ion, 9V Input Voltage Battery Linear Charger" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -562,6 +566,7 @@
       <device name="" package="SOT23-5L">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="SW0000843" constant="no" />
          <attribute name="PART_NUMBER" value="MCP73831-5ACI/OT" constant="no" />
          <attribute name="DESCRIPTION" value="Charger IC Lithium Ion/Polymer SOT-23-5" constant="no" />
          <attribute name="DNP" value="" constant="no" />

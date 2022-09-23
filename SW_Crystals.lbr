@@ -292,6 +292,7 @@
       <device name="5032" package="5032">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="16 MHz &#177;15ppm Crystal 8pF 50 Ohms 4-SMD, No Lead" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -314,6 +315,7 @@
       <device name="3225" package="3225">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="CRYSTAL 12.0000MHZ 20PF SMD" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -343,6 +345,7 @@
       <device name="" package="2SMD-2.0X1.2">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />

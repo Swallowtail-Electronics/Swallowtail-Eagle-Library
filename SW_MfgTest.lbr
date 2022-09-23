@@ -1363,6 +1363,7 @@ Arduino Uno R3 Shield ICSP
       <device name="" package="FIDUCIAL_1MM">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="For use by pick and place machines to calibrate the machine" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1387,6 +1388,7 @@ Arduino Uno R3 Shield ICSP
       <device name="" package="3MM_DRILL_GND">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="3mm ID Mount Point" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1414,6 +1416,7 @@ Arduino Uno R3 Shield ICSP
       <device name="" package="FEATHERWING">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1468,6 +1471,7 @@ Arduino Uno R3 Shield ICSP
       <device name="B1,27" package="B1,27">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="PCB Feature Test Point" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1495,6 +1499,7 @@ Arduino Uno R3 Shield ICSP
       <device name="_NO-SILK" package="SMT-JUMPER_2_NC_TRACE_NO-SILK">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Normally closed PCB trace jumper" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1523,6 +1528,7 @@ Arduino Uno R3 Shield ICSP
       <device name="" package="TEST_POINT">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="PC TEST POINT MINIATURE WHITE" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1550,6 +1556,7 @@ Arduino Uno R3 Shield ICSP
       <device name="_SILK_ROUND" package="SMT-JUMPER_2_NO_SILK_ROUND">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="Normally Open PCB Jumper" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1578,6 +1585,7 @@ Arduino Uno R3 Shield ICSP
       <device name="BASIC" package="UNO_R3_SHIELD">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1628,6 +1636,7 @@ Arduino Uno R3 Shield ICSP
       <device name="NOLABELS" package="UNO_R3_SHIELD_NOLABELS">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1678,6 +1687,7 @@ Arduino Uno R3 Shield ICSP
       <device name="UNO_R3_SHIELD_LOCK" package="UNO_R3_SHIELD_LOCK">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1728,6 +1738,7 @@ Arduino Uno R3 Shield ICSP
       <device name="UNO_R3_SHIELD_NOLABELS_LOCK" package="UNO_R3_SHIELD_NOLABELS_LOCK">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1785,6 +1796,7 @@ Arduino Uno R3 Shield ICSP
       <device name="" package="UNO_R3_SHIELD_ICSP">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -1841,6 +1853,7 @@ Arduino Uno R3 Shield ICSP
       <device name="-NO_LABELS" package="UNO_R3_SHIELD_ICSP_NOLABELS">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />

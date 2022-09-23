@@ -234,6 +234,34 @@
      <smd name="5" x="0.96" y="0" dx="1.19" dy="0.4" layer="1" roundness="25" />
      <smd name="6" x="0.96" y="0.65" dx="1.19" dy="0.4" layer="1" roundness="25" />
     </package>
+    <package name="0603">
+     <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+     <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39" />
+     <wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39" />
+     <wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39" />
+     <wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39" />
+     <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51" />
+     <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51" />
+     <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1" />
+     <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1" />
+     <text x="0" y="0.762" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+     <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51" />
+     <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51" />
+     <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35" />
+    </package>
+    <package name="AXIAL-0.1">
+     <description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
+     <wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21" />
+     <wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21" />
+     <wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21" />
+     <wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21" />
+     <pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796" />
+     <pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796" />
+     <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+     <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+    </package>
    </packages>
    <packages3d>
     <package3d name="21-0041B_8_MXM-M" urn="urn:adsk.eagle:package:32167009/2" type="model">
@@ -295,6 +323,17 @@
      <text x="7.62" y="7.62" size="1.6764" layer="97" font="vector" ratio="10">&gt;Package</text>
      <pin name="OUT" x="35.56" y="2.54" length="middle" direction="out" rot="R180" />
     </symbol>
+    <symbol name="NTC-THERMISTOR">
+     <wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.1524" layer="94" />
+     <wire x1="5.08" y1="-1.27" x2="-2.54" y2="-1.27" width="0.1524" layer="94" />
+     <wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="94" />
+     <wire x1="-2.54" y1="1.27" x2="5.08" y2="1.27" width="0.1524" layer="94" />
+     <wire x1="-1.524" y1="-2.54" x2="3.81" y2="2.54" width="0.1524" layer="94" />
+     <wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94" />
+     <pin name="1" x="-5.08" y="0" visible="off" length="short" />
+     <pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180" />
+     <text x="1.905" y="3.175" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+    </symbol>
    </symbols>
    <devicesets>
     <deviceset name="MAX31855RASA+T" prefix="U">
@@ -305,14 +344,15 @@
       <device name="21-0041B_8_MXM-M" package="SOIC-8">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000868" constant="no" />
+         <attribute name="PART_NUMBER" value="MAX31855RASA+" constant="no" />
          <attribute name="DESCRIPTION" value="IC CONV THERMOCOUPLE-DGTL 8SOIC" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Analog Devices,Analog Devices" constant="no" />
          <attribute name="MPNS" value="MAX31855RASA+T,MAX31855RASA+" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Sensor" constant="no" />
+         <attribute name="CATEGORY" value="Temperature" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -339,14 +379,15 @@
       <device name="" package="SC-70">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000869" constant="no" />
+         <attribute name="PART_NUMBER" value="INA190A5IDCK" constant="no" />
          <attribute name="DESCRIPTION" value="Current Sense Amplifier 1 Circuit Rail-to-Rail SC-70-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments,Texas Instruments" constant="no" />
          <attribute name="MPNS" value="INA190A5IDCKT,INA190A5IDCKR" constant="no" />
          <attribute name="PACKAGE" value="SC-70-6" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Sensor" constant="no" />
+         <attribute name="CATEGORY" value="Current" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -371,14 +412,15 @@
       <device name="" package="SC-70">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000870" constant="no" />
+         <attribute name="PART_NUMBER" value="INA212AIDCK" constant="no" />
          <attribute name="DESCRIPTION" value="Current Sense Amplifier 1 Circuit SC-70-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Texas Instruments,Texas Instruments" constant="no" />
          <attribute name="MPNS" value="INA212AIDCKT,INA212AIDCKR" constant="no" />
          <attribute name="PACKAGE" value="SC-70" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Sensor" constant="no" />
+         <attribute name="CATEGORY" value="Current" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -392,6 +434,33 @@
        <package3dinstances>
         <package3dinstance package3d_urn="urn:adsk.eagle:package:35240626/2" />
        </package3dinstances>
+      </device>
+     </devices>
+    </deviceset>
+    <deviceset name="NTC-THERMISTOR" prefix="R">
+     <description>NTC Thermistor</description>
+     <gates>
+      <gate name="G$1" symbol="NTC-THERMISTOR" x="0" y="0" />
+     </gates>
+     <devices>
+      <device name="0603" package="0603">
+       <technologies>
+        <technology name="">
+         <attribute name="SW_PART_NUMBER" value="SW0000871" constant="no" />
+         <attribute name="PART_NUMBER" value="NTCS0603E3103HMT" constant="no" />
+         <attribute name="DESCRIPTION" value="NTC Thermistor 10k 0603 (1608 Metric)" constant="no" />
+         <attribute name="DNP" value="" constant="no" />
+         <attribute name="MFGS" value="Vishay" constant="no" />
+         <attribute name="MPNS" value="NTCS0603E3103HMT" constant="no" />
+         <attribute name="PACKAGE" value="0603" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="CATEGORY" value="Temperature" constant="no" />
+        </technology>
+       </technologies>
+       <connects>
+        <connect gate="G$1" pin="1" pad="1" />
+        <connect gate="G$1" pin="2" pad="2" />
+       </connects>
       </device>
      </devices>
     </deviceset>

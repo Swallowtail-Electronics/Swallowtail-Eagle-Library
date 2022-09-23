@@ -381,6 +381,7 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
       <device name="" package="TSSOP14">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -421,6 +422,7 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
       <device name="SO16" package="SO16">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="SO16 3-line to 8-line DECODER/DEMULTIPLEXER" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -463,6 +465,7 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
       <device name="" package="SOIC20L">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -503,6 +506,7 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
       <device name="" package="SO16">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />

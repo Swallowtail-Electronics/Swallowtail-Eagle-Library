@@ -451,6 +451,7 @@
       <device name="" package="SW_EG1215AA">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value=" Slide Switch SPDT Surface Mount, Right Angle " constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -480,6 +481,7 @@
       <device name="" package="AYZ0202AGRLC_CNK">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -512,6 +514,7 @@
       <device name="5MM-NO" package="TACTILE_SWITCH_PTH_6.0MM">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="THROUGH-HOLE TACTILE SWITCH, SPS" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -533,6 +536,7 @@
       <device name="6MM-NO" package="TACTILE_SWITCH_PTH_6.0MM">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="6 X 6 MM, 6 MM ACTUATOR HEIGHT," constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -554,12 +558,13 @@
       <device name="KMR231GLFS" package="KMR2_1">
        <technologies>
         <technology name="">
-         <attribute name="PART_NUMBER" value="" constant="no" />
-         <attribute name="DESCRIPTION" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000011" constant="no" />
+         <attribute name="PART_NUMBER" value="KMR231GLFS" constant="no" />
+         <attribute name="DESCRIPTION" value="Tactile Switch SPST-NO Top Actuated Surface Mount" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="" constant="no" />
          <attribute name="MPNS" value="" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
+         <attribute name="PACKAGE" value="SMD" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
          <attribute name="CATEGORY" value="Buttons &amp; Switches" constant="no" />
         </technology>
@@ -575,6 +580,7 @@
       <device name="R1966ABLKBLKFR" package="SW_R1966ABLKBLKFR_EWI">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
@@ -603,6 +609,7 @@
       <device name="" package="ROTARY_ENC_PLAIN">
        <technologies>
         <technology name="">
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
          <attribute name="PART_NUMBER" value="" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
