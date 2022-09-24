@@ -295,15 +295,15 @@ Metric Code Size 4532</description>
       <device name="" package="3557-15">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="SW0007795" constant="no" />
-         <attribute name="PART_NUMBER" value="3557-15" constant="no" />
+         <attribute name="CATEGORY" value="Fuses" constant="no" />
          <attribute name="DESCRIPTION" value="Automotive Fuse Blade Holder" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Keystone Electronics" constant="no" />
          <attribute name="MPNS" value="3557-15" constant="no" />
          <attribute name="PACKAGE" value="TH" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Fuses" constant="no" />
+         <attribute name="PART_NUMBER" value="3557-15" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0007795" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -324,15 +324,15 @@ Metric Code Size 4532</description>
       <device name="0805-6V-0.5A" package="R0805">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="0ZCK0050FF2E" constant="no" />
+         <attribute name="CATEGORY" value="Fuses" constant="no" />
          <attribute name="DESCRIPTION" value="PTC RESET FUSE 6V 500MA 0805" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Bel Fuse Inc." constant="no" />
          <attribute name="MPNS" value="0ZCK0050FF2E" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
+         <attribute name="PACKAGE" value="0805" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Fuses" constant="no" />
+         <attribute name="PART_NUMBER" value="0ZCK0050FF2E" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0007800" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -346,15 +346,15 @@ Metric Code Size 4532</description>
       <device name="1812-24V-1.5A" package="C1812K">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Fuses" constant="no" />
          <attribute name="DESCRIPTION" value="PPTC SMD 1812, 24V 1.5A, REEL 7&quot;" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="YAGEO" constant="no" />
          <attribute name="MPNS" value="SMD1812B150TF/24" constant="no" />
-         <attribute name="PACKAGE" value="" constant="no" />
-         <attribute name="PARTS_EXCLUDE" value="SMD1812B150TF/24" constant="no" />
-         <attribute name="CATEGORY" value="Fuses" constant="no" />
+         <attribute name="PACKAGE" value="1812" constant="no" />
+         <attribute name="PARTS_EXCLUDE" value="" constant="no" />
+         <attribute name="PART_NUMBER" value="SMD1812B150TF/24" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0007816" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -375,15 +375,15 @@ Metric Code Size 4532</description>
       <device name="MOV-10D301KTR" package="S07K17">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="SW0007796" constant="no" />
-         <attribute name="PART_NUMBER" value="MOV-10D301KTR" constant="no" />
+         <attribute name="CATEGORY" value="Fuses" constant="no" />
          <attribute name="DESCRIPTION" value="VARISTOR 300V 2.5KA DISC 10MM" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Bourns Inc." constant="no" />
          <attribute name="MPNS" value="MOV-10D301KTR" constant="no" />
          <attribute name="PACKAGE" value="TH" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Fuses" constant="no" />
+         <attribute name="PART_NUMBER" value="MOV-10D301KTR" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0007796" constant="no" />
         </technology>
        </technologies>
        <connects>

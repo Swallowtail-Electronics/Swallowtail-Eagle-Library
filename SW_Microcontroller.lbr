@@ -2531,15 +2531,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="" package="LQFP-100">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="MCU 32-Bit, ARM Cortex M4, 1MB Flash STMicroelectronics STM32F407VGT6, 32bit ARM Cortex M4F Microcontroller, 168MHz, 1024 kB Flash, 100-Pin LQFP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="ST Microelectronics" constant="no" />
          <attribute name="MPNS" value="STM32F407VGT6" constant="no" />
          <attribute name="PACKAGE" value="LQFP-100" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -2658,15 +2658,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="TQFP64_10X10MC_MCH-M" package="TQFP64(10X10)">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="MIPS32&#174; M4K&#8482; series Microcontroller IC 32-Bit 80MHz 256KB (256K x 8) FLASH 64-TQFP (10x10)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
          <attribute name="MPNS" value="PIC32MX675F256H-80I/PT" constant="no" />
          <attribute name="PACKAGE" value="TQFP-64" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -2749,15 +2749,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="TQFP-44" package="TQFP44">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="SW0000008" constant="no" />
-         <attribute name="PART_NUMBER" value="ATmega32U4 (44-TQFP)" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 16MHz 32KB (16K x 16) FLASH 44-TQFP (10x10)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
          <attribute name="MPNS" value="ATMEGA32U4RC-AUR" constant="no" />
          <attribute name="PACKAGE" value="TQFP-44" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="ATmega32U4 (44-TQFP)" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000008" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -2815,15 +2815,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="" package="TQFP32-08">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="SW0000872" constant="no" />
-         <attribute name="PART_NUMBER" value="ATmega168P" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 16KB (8K x 16) FLASH 32-TQFP (7x7)" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
          <attribute name="MPNS" value="ATMEGA168PB-AUR" constant="no" />
          <attribute name="PACKAGE" value="TQFP-32" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="ATmega168P" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000872" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -2874,15 +2874,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="" package="SOIC-14">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 14-SOIC" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
          <attribute name="MPNS" value="ATTINY44A-SSNR" constant="no" />
          <attribute name="PACKAGE" value="SOIC-14" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -2916,15 +2916,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="" package="WEMOS_D1_MINI_FOOTPRINT">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="A mini wifi board with 4MB flash based on ESP-8266EX" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Lolin" constant="no" />
          <attribute name="MPNS" value="Wemos D1 Mini" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -2959,15 +2959,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="" package="QFN-64-EP">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="SW0000873" constant="no" />
-         <attribute name="PART_NUMBER" value="ATMega128-16MNR" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="IC MCU 8BIT 128KB FLASH 64QFN" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
          <attribute name="MPNS" value="ATMEGA128-16MNR" constant="no" />
          <attribute name="PACKAGE" value="64-QFN (9x9)" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="ATMega128-16MNR" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000873" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -3051,15 +3051,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="SILK" package="TEENSY-3.1">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="Teensy 3+ Footprint. Mechanical footprint with connectors for Teensy Development Board with ARM Cortex" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="PJRC" constant="no" />
          <attribute name="MPNS" value="Teensy 3.2" constant="no" />
          <attribute name="PACKAGE" value="" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -3115,15 +3115,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="" package="LQFP-48(7X7)">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="STM32F103C4T6A, 32 bit ARM Cortex M3 Microcontroller 72MHz 16 kB Flash, 6 kB RAM, USB CAN I2C 48-Pin LQFP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="ST Microelectronics" constant="no" />
          <attribute name="MPNS" value="STM32F103C4T6A" constant="no" />
          <attribute name="PACKAGE" value="LQFP-48" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -3190,15 +3190,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="SOIC" package="SOIC-8">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
          <attribute name="MPNS" value="ATTINY85-20SHR" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -3218,15 +3218,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="TSSOP" package="TSSOP-8">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-TSSOP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
          <attribute name="MPNS" value="ATTINY45V-10XUR" constant="no" />
          <attribute name="PACKAGE" value="TSSOP-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -3253,15 +3253,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="" package="SOT-23-6">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 1KB (512 x 16) FLASH SOT-23-6" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="Microchip Technology" constant="no" />
          <attribute name="MPNS" value="ATTINY10-TS8R" constant="no" />
          <attribute name="PACKAGE" value="SOT23-6" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="ATTINY10-TS" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0007798" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -3287,15 +3287,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="" package="TSSOP20">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="SW0000874" constant="no" />
-         <attribute name="PART_NUMBER" value="STM32L010F4P6" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="ARM&#174; Cortex&#174;-M0+ STM32L0 Microcontroller IC 32-Bit Single-Core 32MHz 16KB (16K x 8) FLASH 20-TSSOP" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="STMicroelectronics,STMicroelectronics" constant="no" />
          <attribute name="MPNS" value="STM32L010F4P6,STM32L010F4P6TR" constant="no" />
          <attribute name="PACKAGE" value="TSSOP-20" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="STM32L010F4P6" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="SW0000874" constant="no" />
         </technology>
        </technologies>
        <connects>
@@ -3332,15 +3332,15 @@ MAX3223-MAX3243.pdf</description>
       <device name="" package="SOIC-8">
        <technologies>
         <technology name="">
-         <attribute name="SW_PART_NUMBER" value="" constant="no" />
-         <attribute name="PART_NUMBER" value="STM32G031J6M6" constant="no" />
+         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
          <attribute name="DESCRIPTION" value="" constant="no" />
          <attribute name="DNP" value="" constant="no" />
          <attribute name="MFGS" value="STMicroelectronics" constant="no" />
          <attribute name="MPNS" value="STM32G031J6M6" constant="no" />
          <attribute name="PACKAGE" value="SOIC-8" constant="no" />
          <attribute name="PARTS_EXCLUDE" value="" constant="no" />
-         <attribute name="CATEGORY" value="Microcontroller" constant="no" />
+         <attribute name="PART_NUMBER" value="STM32G031J6M6" constant="no" />
+         <attribute name="SW_PART_NUMBER" value="" constant="no" />
         </technology>
        </technologies>
        <connects>
